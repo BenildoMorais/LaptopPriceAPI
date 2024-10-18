@@ -1,0 +1,1316 @@
+@relation 'laptop_price-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.Remove-R3-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.Remove-R9-weka.filters.unsupervised.attribute.MathExpression-EA9 * 70-R1-7-weka.filters.unsupervised.attribute.RenameAttribute-find([\\s\\S]+)-replacePrice_metical-R9'
+
+@attribute Company {Apple,HP,Acer,Asus,Dell,Lenovo,Chuwi,MSI,Microsoft,Toshiba,Huawei,Xiaomi,Vero,Razer,Mediacom,Samsung,Google,Fujitsu,LG}
+@attribute Product {'MacBook Pro','Macbook Air','250 G6','Aspire 3','ZenBook UX430UN','Swift 3','MacBook 12','Inspiron 3567','IdeaPad 320-15IKB','XPS 13','Vivobook E200HA','Legion Y520-15IKBN','255 G6','Inspiron 5379','15-BS101nv (i7-8550U/8GB/256GB/FHD/W10)','MacBook Air','Inspiron 5570','Latitude 5590','ProBook 470','LapBook 15.6','E402WA-GA010T (E2-6110/2GB/32GB/W10)','17-ak001nv (A6-9220/4GB/500GB/Radeon','IdeaPad 120S-14IAP','Inspiron 5770','ProBook 450','X540UA-DM186 (i3-6006U/4GB/1TB/FHD/Linux)','Inspiron 7577','X542UQ-GO005 (i5-7200U/8GB/1TB/GeForce','Aspire A515-51G','Inspiron 7773','IdeaPad 320-15ISK','Rog Strix','X751NV-TY001T (N4200/4GB/1TB/GeForce','Yoga Book','ProBook 430','Inspiron 3576','15-bs002nv (i3-6006U/4GB/128GB/FHD/W10)','VivoBook Max','GS73VR 7RG','X541UA-DM1897 (i3-6006U/4GB/256GB/FHD/Linux)','Vostro 5471','IdeaPad 520S-14IKB','UX410UA-GV350T (i5-8250U/8GB/256GB/FHD/W10)','ZenBook Pro','Stream 14-AX040wm','V310-15ISK (i5-7200U/4GB/1TB/FHD/W10)','FX753VE-GC093 (i7-7700HQ/12GB/1TB/GeForce','Surface Laptop','Inspiron 5370','GL72M 7RDX','Aspire E5-475','FX503VD-E4022T (i7-7700HQ/8GB/1TB/GeForce','IdeaPad 320-15IKBN','Aspire A515-51G-32MX','ProBook 440','IdeaPad 320-15AST','Pavilion 15-CK000nv','FX503VM-E4007T (i7-7700HQ/16GB/1TB','FX550IK-DM018T (FX-9830P/8GB/1TB/Radeon','Aspire 5','Probook 430','Zenbook UX430UA','Spin 5','X541UV-DM1439T (i3-7100U/6GB/256GB/GeForce','Omen 15-ce007nv','15-bs017nv (i7-7500U/8GB/256GB/Radeon','15-bw000nv (E2-9000e/4GB/500GB/Radeon','Envy 13-ad009n','Pavilion 14-BK001nv','Ideapad 310-15ISK','UX430UQ-GV209R (i7-7500U/8GB/256GB/GeForce','GP62M 7REX','Thinkpad T470','VivoBook S15','ThinkPad Yoga','Probook 440','Spectre x360','Inspiron 7570','X705UV-BX074T (i3-6006U/4GB/1TB/GeForce','Spin 3','GS63VR 7RG','Probook 470','E402WA-GA007T (E2-6110/4GB/64GB/W10','Inspiron 5567','Aspire A515-51G-37JS','15-BS078nr (i7-7500U/8GB/1TB/W10)','V110-15IAP (N3350/4GB/1TB/No','FX753VD-GC086T (i5-7300HQ/8GB/1TB','Envy 13-AD007nv','ThinkPad E480','Satellite Pro','ZenBook UX430UA','EliteBook Folio','X541NA (N3350/4GB/1TB/FHD/W10)','GE72MVR 7RG','Aspire A315-51','Inspiron 5577','Inspiron 7567','V110-15IKB (i5-7200U/4GB/128GB/W10)','GE73VR 7RE','EliteBook 840','15-BS103nv (i5-8250U/6GB/256GB/Radeon','Yoga 520-14IKB','ZenBook Flip','Inspiron 5579','X555BP-XX180T (A9-9420/4GB/1TB/Radeon','Aspire A517-51G','Aspire A315-31','GE63VR 7RE','MateBook X','17-bs001nv (i5-7200U/6GB/2TB/Radeon','GT80S 6QF-074US','V310-15IKB (i5-7200U/8GB/1TB','Yoga 920-13IKB','Mi Notebook','XPS 15','Swift 7','Thinkpad Yoga','K147 (N3350/4GB/32GB/FHD/W10)','IdeaPad 320-17IKBR','Blade Pro','Omen 17-W295','V110-15ISK (i5-6200U/4GB/128GB/W10)','Aspire E5-576G','Legion Y720-15IKB','Precision 7520','Aspire 7','ROG GL703VD-GC028T','15-bs018nq (i3-6006U/4GB/500GB/FHD/No','IdeaPad 320-17IKB','Latitude 5490','Portege Z30-C-16L','Alienware 17','Vivobook X541UV-DM1217T','K756UX-T4340T (i5-7200U/8GB/500GB','ZBook 15u','Pro P2540UA-XO0198T','15-rb013nv (E2-9000e/4GB/500GB/W10)','Vostro 5468','Aspire R7','X555QG-DM242T (A10-9620P/4GB/1TB','ROG G703VI-E5062T','Nitro AN515-51','VivoBook Pro','F756UX-T4201D (i7-7500U/8GB/128GB','Yoga 910-13IKB','15-bs015dx (i5-7200U/8GB/1TB/W10)','Rog G701VIK-BA060T','ROG G752VSK-GC493T','X505BP-BR019T (A9-9420/4GB/1TB/Radeon','Vostro 5370','15-BW094nd (A6-9220/8GB/128GB/W10)','Envy 17-U275cl','GT73EVR 7RE','Yoga 720-15IKB','Vostro 3568','V330-15IKB (i7-8550U/8GB/256GB/FHD/W10)','ThinkPad X1','IdeaPad 320-17ISK','Ideapad 320-15IKBN','SP315-51 (i7-7500U/12GB/1TB/FHD/W10)','Thinkpad T570','Chromebook C910-C2ST','FX753VD-GC071T (i7-7700HQ/8GB/1TB/GeForce','17-BS037cl (i3-6006U/8GB/1TB/W10)','V330-15IKB (i5-8250U/8GB/256GB/FHD/W10)','Aspire A715-71G','Precision 7720','IdeaPad 310-15ABR','ZenBook UX530UQ-PRO','VivoBook S14','Rog GL702VS-GC095T','GL553VE-FY082T (i7-7700HQ/8GB/1TB','IdeaPad 320-15IAP','EliteBook x360','IdeaPad 720S-13IKB','GE63VR 7RF','ES1-523-84K7 (A8-7410/8GB/256GB/FHD/W10)','VivoBook Flip','ThinkPad 13','ProBook 640','TravelMate B','Elitebook 840','ZenBook UX410UA-GV183T','Aspire E5-575','Elitebook 820','GL72M 7REX','UX510UX-CN269T (i7-7500U/8GB/256GB','V310-15ISK (i3-6006U/4GB/1TB/FHD/W10)','FX553VD-FY647T (i7-7700HQ/8GB/256GB/GeForce','Elitebook 850','X541NA (N3350/4GB/1TB/Linux)','Inspiron 3552','IdeaPad 320-15ABR','Stream 14-AX001nv','GP72MVR 7RFX','Zbook 15','Tecra A50-C-21G','Latitude 7480','Zenbook UX410UA-GV027T','15-AY023na (N3710/8GB/2TB/W10)','Elitebook 1040','IdeaPad 110-17ACL','15-bw003nv (A9-Series-9420/4GB/256GB/FHD/W10)','Yoga 11e','VivoBook E403NA','Omen 17-w212nv','V310-15ISK (i3-6006U/4GB/128GB/FHD/No','ROG Strix','IdeaPad 720S-14IKB','Zenbook Flip','Thinkpad X1','Ideapad 510S-13IKB','Precision 3510','Precision 5520','Rog GL753VD-GC042T','Rog GL753VE-GC070T','Leopard GP72M','15-BW004nv (A9-9420/4GB/256GB/Radeon','ThinkPad E580','ThinkPad L470','Precision M5520','FX753VD-GC461T (i7-7700HQ/16GB/1TB','GE73VR 7RF','Zenbook 3','Portege Z30-C-16P','Lenovo IdeaPad','ThinkPad P51','Thinkpad T470p','15-BS028nv (i3-6006U/4GB/1TB/Radeon','Latitude 3380','EliteBook 1040','LapBook 12.3','ProBook 650','X542UQ-DM117 (i3-7100U/8GB/1TB/GeForce','Latitude 5480','Omen 17-w207nv','FlexBook Edge','Chromebook 3','Thinkpad 13','IdeaPad 320s-14IKB','Thinkpad P51','15-ra044nv (N3060/4GB/500GB/W10)','Pixelbook (Core','ThinkPad T470s','ThinkPad X270','Omen 15-AX205na','Aspire ES1-572','Precision 3520','GV62 7RD-1686NL','15-bs024nv (i5-7200U/8GB/128GB/W10)','ThinkPad T470','Inspiron 3168','17-BS092ND (i3-6006U/8GB/256GB/W10)','Pro P2540UA-AB51','IdeaPad 510s-14IKB','X541NA-PD1003Y (N4200/4GB/500GB/W10)','Omen 17-an006nv','Thinkpad T460s','Latitude 7390','Latitude E5470','Portege X30-D-10J','Lapbook 15,6','ThinkPad E570','Thinkpad X270','Zenbook UX390UA','Thinkpad E570','Portege X30-D-10L','Rog G752VL-UH71T','Thinkpad X260','Ideapad 520-15IKBR','ThinkPad L570','VivoBook E201NA','15-BS026nv (i5-7200U/8GB/256GB/Radeon','IdeaPad 320-14IAP','Chromebook N23','ZenBook UX510UX-CN211T','Aspire A515-51G-59QF','Envy 13-AB002nv','Vostro 5568','VivoBook E12','15-bs190od (i5-8250U/4GB/1TB/W10)','ROG Zephyrus','Probook 450','FX753VE-GC155T (i7-7700HQ/16GB/1TB','Spectre X360','Latitude 5580','Zenbook UX510UW-FI095T','SmartBook Edge','Omen 15-ce006nv','Thinkpad E470','Envy 13-AB020nr','VivoBook X540YA-XX519T','ThinkPad E470','V310-15ISK (i5-6200U/4GB/1TB/FHD/No','ThinkPad T570','17-X047na (i3-6006U/8GB/1TB/W10)','A541NA-GO342 (N3350/4GB/500GB/Linux)','SmartBook 130','15-bw007nv (A10-9620P/6GB/128GB/Radeon','Spin SP111-31','V330-15IKB (i3-7130U/4GB/128GB/FHD/W10)','EliteBook 1030','Thinkpad P71','FX553VD-DM627T (i5-7300HQ/8GB/1TB','Lifebook A557','ZBook 17','14-am079na (N3710/8GB/2TB/W10)','15-cd005nv (A9-9420/6GB/256GB/Radeon','V330-15IKB (i5-8250U/4GB/500GB/FHD/W10)','SmartBook 141','Tecra X40-D-10H','IdeaPad Y910-17ISK','GT73VR Titan','Chromebook 11','GT80S 6QE','Omen 17-AN010nv','Ideapad 320-15IKBR','TP501UA-CJ131T (i5-7200U/8GB/1TB/W10)','Inspiron 3179','Notebook Odyssey','V320-17ISK (i3-6006U/4GB/500GB/FHD/No','IdeaPad 110-15ISK','Latitude 5289','EliteBook 850','Aspire 1','Laptop MSI','GS63VR 7RF','Tecra Z50-C-144','IdeaPad 310-15IKB','Swift SF114-31-P5HY','Inspiron 7559','FX753VD-GC007T (i7-7700HQ/8GB/1TB','GT62VR 7RE','CB5-132T-C9KK (N3160/4GB/32GB/Chrome','LifeBook A557','SmartBook 140','Q304UA-BHI5T11 (i5-7200U/6GB/1TB/FHD/W10)','ZenBook 3','V330-15IKB (i5-8250U/4GB/256GB/FHD/W10)','Ideapad 320-15ISK','X541NA-GO414T (N3350/8GB/1TB/W10)','IdeaPad 100S-14IBR','17-AK091ND (A9-9420/8GB/1TB/W10)','ROG GL553VE-FY022','Extensa EX2540','Portege Z30-C-16J','ROG G701VI','A715-71G-59DH (i5-7300HQ/8GB/1TB/GeForce','GL62M 7REX','Tecra A50-D-11M','IdeaPad Y700-15ISK','Latitude E7470','Ideapad 320-15IAP','15-ay047nv (i3-6006U/6GB/1TB/Radeon','GP72VR Leopard','Latitude 3580','15-bs012nv (i7-7500U/8GB/1TB/Radeon','Tecra Z50-D-10E','V310-15ISK (i5-7200U/8GB/1TB','Yoga 720-13IKB','Pavilion X360','GP62 7RDX','Chromebook X360','Gram 15Z975','Aspire VX5-591G','GV62M 7RD','L502NA-GO052T (N3350/4GB/128GB/W10)','Alienware 15','17-bs000nv I3','Yoga 730','17-Y002nv (A10-9600P/6GB/2TB/Radeon','V110-15ISK (3855U/4GB/500GB/W10)','Chromebook 14','IdeaPad 520s-14IKB','TravelMate B117-M','Chromebook Flip','Portege Z30T-C-133','15-bs011nv (i7-7500U/4GB/500GB/Radeon','V310-15IKB (i5-7200U/4GB/1TB/FHD/W10)','V310-15ISK (i3-6006U/4GB/500GB/No','ThinkPad P51s','Thinkpad T460p','17-ak002nv (A10-9620P/6GB/2TB/Radeon','110-15ACL (A6-7310/4GB/500GB/W10)','Smartbook 142','V310-15IKB (i5-7200U/4GB/1TB/No','Inspiron 5378','15-BW037na (A9-9420/4GB/1TB/Radeon','Predator 17','15-BW091ND (A9-9420/6GB/1TB','Extensa EX2540-58KR','V310-15IKB (i7-7500U/4GB/1TB/FHD/W10)','ZBook 15','Inspiron 7560','Tecra X40-D-10G','Flex 5','Thinkpad P51s','Notebook 9','Zbook 17','N23 (N3060/4GB/128GB/W10)','X550VX-XX015D (i5-6300HQ/4GB/1TB/GeForce','Thinkpad T460','Pro P2540UA-XO0192R','Yoga 900-13ISK','15-cb003na (i5-7300HQ/8GB/1TB','Latitude 7280','Zenbook UX330UA-AH5Q','TravelMate P238-M','X751NV-TY001 (N4200/4GB/1TB/GeForce','Tecra A40-C-1E5','EliteBook 820','Q524UQ-BHI7T15 (i7-7500U/12GB/2TB/GeForce','Thinkpad P50','Vivobook Max','Rog G752VS-BA171T','Tecra Z40-C-161','IdeaPad 110-15IBR','GS43VR 7RE','GL62M (i5-7300HQ/8GB/1TB','Predator G9-793','FX502VM-DM560T (i7-7700HQ/8GB/1TB','K146 (N3350/4GB/32GB/W10)','Yoga 510-15IKB','R417NA-RS01 (N3350/4GB/32GB/W10)','Pro P2540UA-XS51','Latitude 3180','15-ba043na (A12-9700P/8GB/2TB/W10)','Omen 17-an012dx','Thinkpad T470s','Blade Stealth','Latitude 3480','V110-15ISK (i3-6006U/4GB/500GB/W10)','Tecra X40-D-10Z','GL62M 7RD','Rog GL702VS-BA023T','N42-20 Chromebook','R558UA-DM966T (i5-7200U/8GB/128GB/FHD/W10)','Rog GL702VM-GC017T','ZenBook UX310UQ-GL026T','Rog GL502VM-DS74','Inspiron 5767','ThinkPad T470p','K556UR-DM621T (i7-7500U/8GB/256GB/GeForce','X541NA (N4200/4GB/1TB/W10)','Inspiron 5368','Portege X30-D-10X','Port�g� Z30-C-188','TMX349-G2-M-50FS (i5-7200U/8GB/256GB/FHD/W10)','Tecra A50-D-11D','X541NA-GO121 (N4200/4GB/1TB/Linux)','Pavilion x360','VivoBook L402NA','IdeaPad 510-15ISK','Rog GL753VD-GC082T','Chromebook C731-C78G','Probook 640','Envy x360','GS73VR Stealth','Portege X30-D-10V','G701VO-IH74K (i7-6820HK/32GB/2x','Gram 15Z970','Chromebook CB5-571-C1DZ','Gram 14Z970','Elitebook Folio','IdeaPad 510-15IKB','GE72VR 6RF','Envy 13-AB077cl','Tecra Z50-C-140','Probook 650','Tecra Z40-C-12X','GP62M Leopard','Omen 17-W006na','X751SV-TY001T (N3710/4GB/1TB/GeForce','TravelMate P259-G2','Tecra A50-C-1ZV','Yoga 700-11ISK','IdeaPad Y700-15ACZ','Insprion 5767','ZBook Studio','Portege Z30-C-1CW','ProBook x360','Chromebook C738T-C2EJ','Portege Z30-C-16Z','Aspire F5-573G-510L','Portege X20W-D-10V','Tecra A40-C-1DF','ThinkPad T460','Q534UX-BHI7T19 (i7-7500U/16GB/2TB','15-bs053od (i7-7500U/6GB/1TB/W10)','Rog GL753VE-DS74','Inspiron 7579','Portege Z30-C-1CV','LifeBook A556','Tecra A40-C-1KF','15-bs005nv (i3-6006U/4GB/1TB','V110-15IAP (N3350/4GB/128GB/No','ThinkPad T560','ZenBook UX310UA-FB485T','Spectre 13-V111dx','Aspire ES1-533','Rog GL553VE-DS74','Nitro 5','ENVY -','Portege Z30-C-16H','Portege A30-C-1CZ','ThinkPad P70','Tecra Z40-C-12Z','Inspiron 5568','Port�g� Z30-C-16K','Spectre 13-V100nv','Latitude E5570','Tecra Z40-C-136','Yoga 500-15ISK','V142 (X5-Z8350/2GB/32GB/W10)','Tecra A50-C-218','Thinkpad L560','GT72S Dominator','IdeaPad Y900-17ISK','Chromebook C202SA','Noteb Pav','Inspiron 5578','250 G5','Aspire ES1-523','Inspiron 7378','GT62VR 6RD','Rog G752VL-GC088D','GS63VR 6RF','ROG G701VO','Latitude 3570','IdeaPad 300-17ISK','Ideapad 700-15ISK','GT72VR Dominator','V110-15ISK (i5-6200U/4GB/500GB/W10)','Yoga 900S-12ISK','Chromebook 13','Rog GL702VM-GC354T','Aspire F5-573G','GS70 Stealth','G752VY-GC162T (i7-6700HQ/16GB/1TB','Latitude E5270','Chromebook 15','GE72 Apache','15-bw011nv (A6-9220/4GB/1TB/FHD/W10)','Rog GL552VW-CN470T','Vostro 3559','V110-15ISK (i3-6006U/4GB/128GB/W10)','Spectre Pro','Portege X30-D-10K','Rog GL752VW-T4308T','V131 (X5-Z8350/4GB/32GB/FHD/W10)','Omen -','15-bs078cl (i7-7500U/8GB/2TB/W10)','ThinkPad P40','L403NA-GA013TS (N3350/4GB/32GB/W10)','IdeaPad 500-15ISK','GP62M 7RDX','V110-15ISK (i3-6006U/4GB/1TB/No','15-BA015wm (E2-7110/4GB/500GB/W10)','B51-80 (i5-6200U/8GB/1TB/Radeon','15-bw002nv (A6-9220/4GB/256GB/Radeon','GP72M 7REX','ThinkPad T460s','B51-80 (i5-6200U/8GB/1008GB/Radeon','GS40 Phantom','Pavilion 15-cb003nv','IdeaPad 310-15ISK','250 G4','320-15ISK (i3-6006U/4GB/1TB/GeForce','Stream 14-AX000nv','PL60 7RD','X553SA-XX021T (N3050/4GB/500GB/W10)','V110-15ISK (i5-6200U/4GB/500GB/No','UX410UA-GV097T (i3-7100U/4GB/256GB/FHD/W10)','B51-80 (i7-6500U/4GB/1008GB/FHD/W7)','GS60 Ghost','Pavilion 15-BC000nv','Rog GL552VW-DM201T','Chromebook Plus','Pavilion Power','V110-15ISK (i3-6006U/4GB/1TB/Radeon','Rog G752VY-GC229T','GS73VR 7RF','FX502VM-DM105T (i7-6700HQ/8GB/1TB/GeForce','15-bs025nv (i5-7200U/8GB/256GB/W10)','Aspire E5-774G','FX502VM-AS73 (i7-7700HQ/16GB/1TB','C740-C9QX (3205U/2GB/32GB/Chrome','E5 774G','SP714-51 (i7-7Y75/8GB/256GB/FHD/W10)','Thinkpad T560','GP62MVR 6RF','15-bw009nv (A12-9720P/6GB/1TB/Radeon','Latitude E7270','X540SA-RBPDN09 (N3710/4GB/1TB/W10)','GL62M 7RDX','GE72VR Apache','15-bs023nv (i3-6006U/4GB/1TB/FHD/W10)','GL62 6QF','ZenBook UX310UA-WB71','Inspiron 7779','Rog GL553VE-FY052T','Rog GL502VS','V510-15IKB (i5-7200U/8GB/256GB/FHD/No','ThinkPad L460','X541NA-GO020T (N3350/4GB/1TB/W10)','Rog G752VT-GC073T','B51-80 (i7-6500U/8GB/1008GB/Radeon','GE62 Apache','Yoga 500-14IBD','ZenBook UX305CA-UBM1','Aspire ES1-531','Pavilion 15-AW003nv','Stream 11-Y000na','X556UJ-XO044T (i7-6500U/4GB/500GB/GeForce','Yoga 500-14ISK','15-AC110nv (i7-6500U/6GB/1TB/Radeon','X553SA-XX031T (N3050/4GB/500GB/W10)'}
+@attribute Inches numeric
+@attribute ScreenResolution {'IPS Panel Retina Display 2560x1600',1440x900,'Full HD 1920x1080','IPS Panel Retina Display 2880x1800',1366x768,'IPS Panel Full HD 1920x1080','IPS Panel Retina Display 2304x1440','IPS Panel Full HD / Touchscreen 1920x1080','Full HD / Touchscreen 1920x1080','Touchscreen / Quad HD+ 3200x1800','IPS Panel Touchscreen 1920x1200','Touchscreen 2256x1504','Quad HD+ / Touchscreen 3200x1800','IPS Panel 1366x768','IPS Panel 4K Ultra HD / Touchscreen 3840x2160','IPS Panel Full HD 2160x1440','4K Ultra HD / Touchscreen 3840x2160','Touchscreen 2560x1440',1600x900,'IPS Panel 4K Ultra HD 3840x2160','4K Ultra HD 3840x2160','Touchscreen 1366x768','IPS Panel Full HD 1366x768','IPS Panel 2560x1440','IPS Panel Full HD 2560x1440','IPS Panel Retina Display 2736x1824','Touchscreen 2400x1600',2560x1440,'IPS Panel Quad HD+ 2560x1440','IPS Panel Quad HD+ 3200x1800','IPS Panel Quad HD+ / Touchscreen 3200x1800','IPS Panel Touchscreen 1366x768',1920x1080,'IPS Panel Full HD 1920x1200','IPS Panel Touchscreen / 4K Ultra HD 3840x2160','IPS Panel Touchscreen 2560x1440','Touchscreen / Full HD 1920x1080','Quad HD+ 3200x1800','Touchscreen / 4K Ultra HD 3840x2160','IPS Panel Touchscreen 2400x1600'}
+@attribute Cpu {'Intel Core i5 2.3GHz','Intel Core i5 1.8GHz','Intel Core i5 7200U 2.5GHz','Intel Core i7 2.7GHz','Intel Core i5 3.1GHz','AMD A9-Series 9420 3GHz','Intel Core i7 2.2GHz','Intel Core i7 8550U 1.8GHz','Intel Core i5 8250U 1.6GHz','Intel Core i3 6006U 2GHz','Intel Core i7 2.8GHz','Intel Core M m3 1.2GHz','Intel Core i7 7500U 2.7GHz','Intel Core i7 2.9GHz','Intel Core i3 7100U 2.4GHz','Intel Atom x5-Z8350 1.44GHz','Intel Core i5 7300HQ 2.5GHz','AMD E-Series E2-9000e 1.5GHz','Intel Core i5 1.6GHz','Intel Core i7 8650U 1.9GHz','Intel Atom x5-Z8300 1.44GHz','AMD E-Series E2-6110 1.5GHz','AMD A6-Series 9220 2.5GHz','Intel Celeron Dual Core N3350 1.1GHz','Intel Core i3 7130U 2.7GHz','Intel Core i7 7700HQ 2.8GHz','Intel Core i5 2.0GHz','AMD Ryzen 1700 3GHz','Intel Pentium Quad Core N4200 1.1GHz','Intel Atom x5-Z8550 1.44GHz','Intel Celeron Dual Core N3060 1.6GHz','Intel Core i5 1.3GHz','AMD FX 9830P 3GHz','Intel Core i7 7560U 2.4GHz','AMD E-Series 6110 1.5GHz','Intel Core i5 6200U 2.3GHz','Intel Core M 6Y75 1.2GHz','Intel Core i5 7500U 2.7GHz','Intel Core i3 6006U 2.2GHz','AMD A6-Series 9220 2.9GHz','Intel Core i7 6920HQ 2.9GHz','Intel Core i5 7Y54 1.2GHz','Intel Core i7 7820HK 2.9GHz','Intel Xeon E3-1505M V6 3GHz','Intel Core i7 6500U 2.5GHz','AMD E-Series 9000e 1.5GHz','AMD A10-Series A10-9620P 2.5GHz','AMD A6-Series A6-9220 2.5GHz','Intel Core i5 2.9GHz','Intel Core i7 6600U 2.6GHz','Intel Core i3 6006U 2.0GHz','Intel Celeron Dual Core 3205U 1.5GHz','Intel Core i7 7820HQ 2.9GHz','AMD A10-Series 9600P 2.4GHz','Intel Core i7 7600U 2.8GHz','AMD A8-Series 7410 2.2GHz','Intel Celeron Dual Core 3855U 1.6GHz','Intel Pentium Quad Core N3710 1.6GHz','AMD A12-Series 9720P 2.7GHz','Intel Core i5 7300U 2.6GHz','AMD A12-Series 9720P 3.6GHz','Intel Celeron Quad Core N3450 1.1GHz','Intel Celeron Dual Core N3060 1.60GHz','Intel Core i5 6440HQ 2.6GHz','Intel Core i7 6820HQ 2.7GHz','AMD Ryzen 1600 3.2GHz','Intel Core i7 7Y75 1.3GHz','Intel Core i5 7440HQ 2.8GHz','Intel Core i7 7660U 2.5GHz','Intel Core i7 7700HQ 2.7GHz','Intel Core M m3-7Y30 2.2GHz','Intel Core i5 7Y57 1.2GHz','Intel Core i7 6700HQ 2.6GHz','Intel Core i3 6100U 2.3GHz','AMD A10-Series 9620P 2.5GHz','AMD E-Series 7110 1.8GHz','Intel Celeron Dual Core N3350 2.0GHz','AMD A9-Series A9-9420 3GHz','Intel Core i7 6820HK 2.7GHz','Intel Core M 7Y30 1.0GHz','Intel Xeon E3-1535M v6 3.1GHz','Intel Celeron Quad Core N3160 1.6GHz','Intel Core i5 6300U 2.4GHz','Intel Core i3 6100U 2.1GHz','AMD E-Series E2-9000 2.2GHz','Intel Celeron Dual Core N3050 1.6GHz','Intel Core M M3-6Y30 0.9GHz','AMD A9-Series 9420 2.9GHz','Intel Core i5 6300HQ 2.3GHz','AMD A6-Series 7310 2GHz','Intel Atom Z8350 1.92GHz','Intel Xeon E3-1535M v5 2.9GHz','Intel Core i5 6260U 1.8GHz','Intel Pentium Dual Core N4200 1.1GHz','Intel Celeron Quad Core N3710 1.6GHz','Intel Core M 1.2GHz','AMD A12-Series 9700P 2.5GHz','Intel Core i7 7500U 2.5GHz','Intel Pentium Dual Core 4405U 2.1GHz','AMD A4-Series 7210 2.2GHz','Intel Core i7 6560U 2.2GHz','Intel Core M m7-6Y75 1.2GHz','AMD FX 8800P 2.1GHz','Intel Core M M7-6Y75 1.2GHz','Intel Core i5 7200U 2.50GHz','Intel Core i5 7200U 2.70GHz','Intel Atom X5-Z8350 1.44GHz','Intel Core i5 7200U 2.7GHz','Intel Core M 1.1GHz','Intel Pentium Dual Core 4405Y 1.5GHz','Intel Pentium Quad Core N3700 1.6GHz','Intel Core M 6Y54 1.1GHz','Intel Core i7 6500U 2.50GHz','Intel Celeron Dual Core N3350 2GHz','Samsung Cortex A72&A53 2.0GHz','AMD E-Series 9000 2.2GHz','Intel Core M 6Y30 0.9GHz','AMD A9-Series 9410 2.9GHz'}
+@attribute Ram {8GB,16GB,4GB,2GB,12GB,6GB,32GB,24GB,64GB}
+@attribute Memory {'128GB SSD','128GB Flash Storage','256GB SSD','512GB SSD','500GB HDD','256GB Flash Storage','1TB HDD','32GB Flash Storage','128GB SSD +  1TB HDD','256GB SSD +  256GB SSD','64GB Flash Storage','256GB SSD +  1TB HDD','256GB SSD +  2TB HDD','32GB SSD','2TB HDD','64GB SSD','1.0TB Hybrid','512GB SSD +  1TB HDD','1TB SSD','256GB SSD +  500GB HDD','128GB SSD +  2TB HDD','512GB SSD +  512GB SSD','16GB SSD','16GB Flash Storage','512GB SSD +  256GB SSD','512GB SSD +  2TB HDD','64GB Flash Storage +  1TB HDD','180GB SSD','1TB HDD +  1TB HDD','32GB HDD','1TB SSD +  1TB HDD','512GB Flash Storage','128GB HDD','240GB SSD','8GB SSD','508GB Hybrid','1.0TB HDD','512GB SSD +  1.0TB Hybrid','256GB SSD +  1.0TB Hybrid'}
+@attribute Gpu {'Intel Iris Plus Graphics 640','Intel HD Graphics 6000','Intel HD Graphics 620','AMD Radeon Pro 455','Intel Iris Plus Graphics 650','AMD Radeon R5','Intel Iris Pro Graphics','Nvidia GeForce MX150','Intel UHD Graphics 620','Intel HD Graphics 520','AMD Radeon Pro 555','Intel HD Graphics 615','AMD Radeon R5 M430','AMD Radeon Pro 560','Nvidia GeForce 940MX','Intel HD Graphics 400','Nvidia GeForce GTX 1050','AMD Radeon R2','AMD Radeon 530','Nvidia GeForce 930MX','Intel HD Graphics','Intel HD Graphics 500','Nvidia GeForce 930MX ','Nvidia GeForce GTX 1060','Nvidia GeForce 150MX','Intel Iris Graphics 540','AMD Radeon RX 580','Nvidia GeForce 920MX','AMD Radeon R4 Graphics','AMD Radeon 520','Nvidia GeForce GTX 1070','Nvidia GeForce GTX 1050 Ti','Nvidia GeForce MX130','AMD R4 Graphics','Nvidia GeForce GTX 940MX','AMD Radeon RX 560','Nvidia GeForce 920M','AMD Radeon R7 M445','AMD Radeon RX 550','Nvidia GeForce GTX 1050M','Intel HD Graphics 515','AMD Radeon R5 M420','Intel HD Graphics 505','Nvidia GTX 980 SLI','AMD R17M-M1-70','Nvidia GeForce GTX 1080','Nvidia Quadro M1200','Nvidia GeForce 920MX ','Nvidia GeForce GTX 950M','AMD FirePro W4190M ','Nvidia GeForce GTX 980M','Intel Iris Graphics 550','Nvidia GeForce 930M','Intel HD Graphics 630','AMD Radeon R5 430','Nvidia GeForce GTX 940M','Intel HD Graphics 510','Intel HD Graphics 405','AMD Radeon RX 540','Nvidia GeForce GT 940MX','AMD FirePro W5130M','Nvidia Quadro M2200M','AMD Radeon R4','Nvidia Quadro M620','AMD Radeon R7 M460','Intel HD Graphics 530','Nvidia GeForce GTX 965M','Nvidia GeForce GTX1080','Nvidia GeForce GTX1050 Ti','Nvidia GeForce GTX 960M','AMD Radeon R2 Graphics','Nvidia Quadro M620M','Nvidia GeForce GTX 970M','Nvidia GeForce GTX 960<U+039C>','Intel Graphics 620','Nvidia GeForce GTX 960','AMD Radeon R5 520','AMD Radeon R7 M440','AMD Radeon R7','Nvidia Quadro M520M','Nvidia Quadro M2200','Nvidia Quadro M2000M','Intel HD Graphics 540','Nvidia Quadro M1000M','AMD Radeon 540','Nvidia GeForce GTX 1070M','Nvidia GeForce GTX1060','Intel HD Graphics 5300','AMD Radeon R5 M420X','AMD Radeon R7 Graphics','Nvidia GeForce 920','Nvidia GeForce 940M','Nvidia GeForce GTX 930MX','AMD Radeon R7 M465','AMD Radeon R3','Nvidia GeForce GTX 1050Ti','AMD Radeon R7 M365X','AMD Radeon R9 M385','Intel HD Graphics 620 ','Nvidia Quadro 3000M','Nvidia GeForce GTX 980 ','AMD Radeon R5 M330','AMD FirePro W4190M','AMD FirePro W6150M','AMD Radeon R5 M315','Nvidia Quadro M500M','AMD Radeon R7 M360','Nvidia Quadro M3000M','Nvidia GeForce 960M','ARM Mali T860 MP4'}
+@attribute Price_metical numeric
+
+@data
+Apple,'MacBook Pro',13.3,'IPS Panel Retina Display 2560x1600','Intel Core i5 2.3GHz',8GB,'128GB SSD','Intel Iris Plus Graphics 640',93778.3
+Apple,'Macbook Air',13.3,1440x900,'Intel Core i5 1.8GHz',8GB,'128GB Flash Storage','Intel HD Graphics 6000',62925.8
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',40250
+Apple,'MacBook Pro',15.4,'IPS Panel Retina Display 2880x1800','Intel Core i7 2.7GHz',16GB,'512GB SSD','AMD Radeon Pro 455',177621.5
+Apple,'MacBook Pro',13.3,'IPS Panel Retina Display 2560x1600','Intel Core i5 3.1GHz',8GB,'256GB SSD','Intel Iris Plus Graphics 650',126252
+Acer,'Aspire 3',15.6,1366x768,'AMD A9-Series 9420 3GHz',4GB,'500GB HDD','AMD Radeon R5',28000
+Apple,'MacBook Pro',15.4,'IPS Panel Retina Display 2880x1800','Intel Core i7 2.2GHz',16GB,'256GB Flash Storage','Intel Iris Pro Graphics',149797.9
+Apple,'Macbook Air',13.3,1440x900,'Intel Core i5 1.8GHz',8GB,'256GB Flash Storage','Intel HD Graphics 6000',81109
+Asus,'ZenBook UX430UN',14,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Nvidia GeForce MX150',104650
+Acer,'Swift 3',14,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',53900
+HP,'250 G6',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',27573
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',24149.3
+Apple,'MacBook Pro',15.4,'IPS Panel Retina Display 2880x1800','Intel Core i7 2.8GHz',16GB,'256GB SSD','AMD Radeon Pro 555',170797.9
+Apple,'MacBook 12',12,'IPS Panel Retina Display 2304x1440','Intel Core M m3 1.2GHz',8GB,'256GB SSD','Intel HD Graphics 615',88368
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'256GB SSD','AMD Radeon R5 M430',34923
+Apple,'MacBook Pro',13.3,'IPS Panel Retina Display 2560x1600','Intel Core i5 2.3GHz',8GB,'256GB SSD','Intel Iris Plus Graphics 640',106298.5
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','AMD Radeon R5 M430',52150
+Apple,'MacBook Pro',15.4,'IPS Panel Retina Display 2880x1800','Intel Core i7 2.9GHz',16GB,'512GB SSD','AMD Radeon Pro 560',200060
+Lenovo,'IdeaPad 320-15IKB',15.6,'Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',8GB,'1TB HDD','Nvidia GeForce 940MX',34930
+Dell,'XPS 13',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'128GB SSD','Intel UHD Graphics 620',68530
+Asus,'Vivobook E200HA',11.6,1366x768,'Intel Atom x5-Z8350 1.44GHz',2GB,'32GB Flash Storage','Intel HD Graphics 400',13433
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',69930
+HP,'255 G6',15.6,1366x768,'AMD E-Series E2-9000e 1.5GHz',4GB,'500GB HDD','AMD Radeon R2',18060
+Dell,'Inspiron 5379',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',57330
+HP,'15-BS101nv (i7-8550U/8GB/256GB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel HD Graphics 620',46130
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 520',29304.8
+Apple,'MacBook Air',13.3,1440x900,'Intel Core i5 1.6GHz',8GB,'128GB Flash Storage','Intel HD Graphics 6000',76930
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','AMD Radeon 530',56000
+Dell,'Latitude 5590',15.6,'Full HD 1920x1080','Intel Core i7 8650U 1.9GHz',8GB,'256GB SSD +  256GB SSD','Intel UHD Graphics 620',90860
+HP,'ProBook 470',17.3,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'1TB HDD','Nvidia GeForce 930MX',62720
+Chuwi,'LapBook 15.6',15.6,'Full HD 1920x1080','Intel Atom x5-Z8300 1.44GHz',4GB,'64GB Flash Storage','Intel HD Graphics',17149.3
+Asus,'E402WA-GA010T (E2-6110/2GB/32GB/W10)',14,1366x768,'AMD E-Series E2-6110 1.5GHz',2GB,'32GB Flash Storage','AMD Radeon R2',13930
+HP,'17-ak001nv (A6-9220/4GB/500GB/Radeon',17.3,'Full HD 1920x1080','AMD A6-Series 9220 2.5GHz',4GB,'500GB HDD','AMD Radeon 530',30730
+Dell,'XPS 13',13.3,'Touchscreen / Quad HD+ 3200x1800','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Intel UHD Graphics 620',130830
+Apple,'MacBook Air',13.3,1440x900,'Intel Core i5 1.6GHz',8GB,'256GB Flash Storage','Intel HD Graphics 6000',69860
+Lenovo,'IdeaPad 120S-14IAP',14,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'64GB Flash Storage','Intel HD Graphics 500',17430
+Acer,'Aspire 3',15.6,1366x768,'Intel Core i3 7130U 2.7GHz',4GB,'1TB HDD','Intel HD Graphics 620',25690
+Dell,'Inspiron 5770',17.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon 530',68530
+HP,'250 G6',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Intel HD Graphics 620',34208.3
+HP,'ProBook 450',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Nvidia GeForce 930MX ',61530
+Asus,'X540UA-DM186 (i3-6006U/4GB/1TB/FHD/Linux)',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 620',27230
+Dell,'Inspiron 7577',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',104930
+Asus,'X542UQ-GO005 (i5-7200U/8GB/1TB/GeForce',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Nvidia GeForce 940MX',36609.3
+Acer,'Aspire A515-51G',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'256GB SSD','Intel UHD Graphics 620',47740
+Dell,'Inspiron 7773',17.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',12GB,'1TB HDD','Nvidia GeForce 150MX',69930
+Apple,'MacBook Pro',13.3,'IPS Panel Retina Display 2560x1600','Intel Core i5 2.0GHz',8GB,'256GB SSD','Intel Iris Graphics 540',99330
+Lenovo,'IdeaPad 320-15ISK',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'128GB SSD','Intel HD Graphics 520',25830
+Asus,'Rog Strix',17.3,'Full HD 1920x1080','AMD Ryzen 1700 3GHz',8GB,'256GB SSD +  1TB HDD','AMD Radeon RX 580',90930
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','AMD Radeon R5 M430',44730
+Asus,'X751NV-TY001T (N4200/4GB/1TB/GeForce',17.3,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'1TB HDD','Nvidia GeForce 920MX',32620
+Lenovo,'Yoga Book',10.1,'IPS Panel Touchscreen 1920x1200','Intel Atom x5-Z8550 1.44GHz',4GB,'64GB Flash Storage','Intel HD Graphics 400',22330
+Acer,'Aspire A515-51G',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Nvidia GeForce MX150',58870
+HP,'255 G6',15.6,'Full HD 1920x1080','AMD A6-Series 9220 2.5GHz',4GB,'256GB SSD','AMD Radeon R4 Graphics',27894.3
+HP,'ProBook 430',13.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'512GB SSD','Intel UHD Graphics 620',77210
+Acer,'Aspire 3',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'1TB HDD','Intel HD Graphics 620',26880
+Dell,'Inspiron 3576',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','AMD Radeon 520',53746
+HP,'15-bs002nv (i3-6006U/4GB/128GB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'128GB SSD','Intel HD Graphics 520',30730
+Asus,'VivoBook Max',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',41033.3
+MSI,'GS73VR 7RG',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  2TB HDD','Nvidia GeForce GTX 1070',171430
+Asus,'X541UA-DM1897 (i3-6006U/4GB/256GB/FHD/Linux)',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'256GB SSD','Intel HD Graphics 520',29050
+Dell,'Inspiron 5770',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'256GB SSD +  2TB HDD','AMD Radeon 530',90930
+Dell,'Vostro 5471',14,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',61530
+Lenovo,'IdeaPad 520S-14IKB',14,'IPS Panel Full HD 1920x1080','Intel Core i3 7130U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',41930
+Asus,'UX410UA-GV350T (i5-8250U/8GB/256GB/FHD/W10)',14,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',65870
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',48300
+Asus,'ZenBook Pro',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1050 Ti',138810
+HP,'250 G6',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','AMD Radeon 520',30708.3
+HP,'Stream 14-AX040wm',14,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'32GB SSD','Intel HD Graphics 400',16030
+Lenovo,'V310-15ISK (i5-7200U/4GB/1TB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Intel HD Graphics 620',38430
+Asus,'FX753VE-GC093 (i7-7700HQ/12GB/1TB/GeForce',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',12GB,'1TB HDD','Nvidia GeForce GTX 1050 Ti',66430
+Microsoft,'Surface Laptop',13.5,'Touchscreen 2256x1504','Intel Core i5 7200U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 620',76230
+Dell,'Inspiron 5370',13.3,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','AMD Radeon 530',66850
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','AMD Radeon 530',60900
+MSI,'GL72M 7RDX',17.3,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',76650
+Acer,'Aspire E5-475',14,1366x768,'Intel Core i3 6006U 2GHz',8GB,'1TB HDD','Intel HD Graphics 520',27230
+Asus,'FX503VD-E4022T (i7-7700HQ/8GB/1TB/GeForce',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',66430
+Lenovo,'IdeaPad 320-15IKBN',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'2TB HDD','Intel HD Graphics 620',36330
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'128GB SSD +  1TB HDD','Intel UHD Graphics 620',59850
+Acer,'Aspire A515-51G-32MX',15.6,'Full HD 1920x1080','Intel Core i3 7130U 2.7GHz',4GB,'1TB HDD','Nvidia GeForce MX130',37100
+HP,'ProBook 470',17.3,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce 930MX',68390
+Dell,'Latitude 5590',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',76731.2
+Apple,'MacBook 12',12,'IPS Panel Retina Display 2304x1440','Intel Core i5 1.3GHz',8GB,'512GB SSD','Intel HD Graphics 615',105700
+HP,'ProBook 440',14,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',60200
+Lenovo,'IdeaPad 320-15AST',15.6,'Full HD 1920x1080','AMD A6-Series 9220 2.5GHz',4GB,'128GB SSD','AMD R4 Graphics',27930
+Acer,'Aspire 3',15.6,1366x768,'AMD A9-Series 9420 3GHz',4GB,'1TB HDD','AMD Radeon R5',27650
+Dell,'Inspiron 7577',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',94430
+HP,'Pavilion 15-CK000nv',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Nvidia GeForce GTX 940MX',48930
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',41929.3
+Asus,'FX503VM-E4007T (i7-7700HQ/16GB/1TB',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',101430
+Dell,'XPS 13',13.3,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',115430
+Asus,'FX550IK-DM018T (FX-9830P/8GB/1TB/Radeon',15.6,'Full HD 1920x1080','AMD FX 9830P 3GHz',8GB,'1TB HDD','AMD Radeon RX 560',48930
+Acer,'Aspire 5',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'1TB HDD','Nvidia GeForce MX150',48230
+HP,'Probook 430',13.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Intel UHD Graphics 620',83790
+Dell,'Inspiron 7577',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1060',83650
+Asus,'Zenbook UX430UA',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',73430
+Acer,'Spin 5',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',59290
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','AMD Radeon R5 M430',41993
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'256GB SSD','AMD Radeon R5 M430',33950
+Asus,'X541UV-DM1439T (i3-7100U/6GB/256GB/GeForce',15.6,'Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',6GB,'256GB SSD','Nvidia GeForce 920M',40390
+HP,'Omen 15-ce007nv',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',12GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',87430
+HP,'15-bs017nv (i7-7500U/8GB/256GB/Radeon',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','AMD Radeon 530',50330
+HP,'15-bw000nv (E2-9000e/4GB/500GB/Radeon',15.6,'Full HD 1920x1080','AMD E-Series E2-9000e 1.5GHz',4GB,'500GB HDD','AMD Radeon R2',24430
+Dell,'Inspiron 3576',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'1TB HDD','AMD Radeon 520',45290
+HP,'Envy 13-ad009n',13.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce MX150',78330
+Microsoft,'Surface Laptop',13.5,'Touchscreen 2256x1504','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',93800
+HP,'Pavilion 14-BK001nv',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',6GB,'256GB SSD','Nvidia GeForce 940MX',46130
+Lenovo,'Ideapad 310-15ISK',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 520',29043
+Asus,'UX430UQ-GV209R (i7-7500U/8GB/256GB/GeForce',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',83510
+MSI,'GP62M 7REX',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',90930
+Lenovo,'Thinkpad T470',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',103600
+Asus,'VivoBook S15',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce MX150',88340
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 7560U 2.4GHz',8GB,'256GB SSD','Intel Iris Plus Graphics 640',96530
+Lenovo,'ThinkPad Yoga',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',97930
+HP,'Probook 440',14,'IPS Panel 1366x768','Intel Core i5 8250U 1.6GHz',4GB,'500GB HDD','Intel UHD Graphics 620',50540
+Dell,'XPS 13',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',114030
+HP,'Spectre x360',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',97929.3
+HP,'Probook 440',14,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'512GB SSD','Intel UHD Graphics 620',75880
+Dell,'Inspiron 7570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD +  1TB HDD','Nvidia GeForce 940MX',79123.1
+Asus,'X705UV-BX074T (i3-6006U/4GB/1TB/GeForce',17.3,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Nvidia GeForce 920MX',39480
+Asus,'VivoBook S15',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',78260
+Acer,'Spin 3',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i3 7100U 2.4GHz',6GB,'1TB HDD','Intel HD Graphics 620',33530
+MSI,'GS63VR 7RG',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  2TB HDD','Nvidia GeForce GTX 1070',156905
+Lenovo,'IdeaPad 320-15IKBN',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',44030
+HP,'Probook 470',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Nvidia GeForce 930MX ',88970
+Acer,'Aspire 3',15.6,1366x768,'AMD A9-Series 9420 3GHz',4GB,'256GB SSD','AMD Radeon R5',31570
+HP,'250 G6',15.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'500GB HDD','Intel HD Graphics 400',18130
+HP,'Probook 440',14,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'1TB HDD','Intel UHD Graphics 620',56840
+Asus,'E402WA-GA007T (E2-6110/4GB/64GB/W10',14,1366x768,'AMD E-Series 6110 1.5GHz',4GB,'64GB SSD','AMD Radeon R2',19459.3
+Dell,'Inspiron 5770',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'256GB SSD +  2TB HDD','AMD Radeon 530',97720
+HP,'ProBook 470',17.3,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',64960
+Dell,'Inspiron 5567',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','AMD Radeon R7 M445',44729.3
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','AMD Radeon R5 M430',31430
+Acer,'Swift 3',14,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',61880
+Acer,'Aspire A515-51G-37JS',15.6,'Full HD 1920x1080','Intel Core i3 7130U 2.7GHz',4GB,'256GB SSD','Nvidia GeForce MX130',40040
+HP,'15-BS078nr (i7-7500U/8GB/1TB/W10)',15.6,1366x768,'Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Intel HD Graphics 620',41860
+HP,'Probook 440',14,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',69160
+Lenovo,'V110-15IAP (N3350/4GB/1TB/No',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 500',17665.2
+Asus,'FX753VD-GC086T (i5-7300HQ/8GB/1TB',17.3,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',65660
+Lenovo,'IdeaPad 320-15IKBN',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Nvidia GeForce 920MX',34930
+HP,'Envy 13-AD007nv',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',48930
+Acer,'Aspire 5',17.3,'IPS Panel Full HD 1920x1080','Intel Core i3 7130U 2.7GHz',4GB,'1TB HDD','Nvidia GeForce MX130',45850
+Lenovo,'ThinkPad E480',14,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','AMD Radeon RX 550',78121.4
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050M',60830
+Toshiba,'Satellite Pro',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',42140
+HP,'255 G6',15.6,1366x768,'AMD A6-Series 9220 2.5GHz',4GB,'256GB SSD','AMD Radeon R4 Graphics',25830
+Asus,'ZenBook UX430UA',14,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',76930
+HP,'EliteBook Folio',12.5,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core M 6Y75 1.2GHz',8GB,'512GB SSD','Intel HD Graphics 515',140980
+Asus,'X541NA (N3350/4GB/1TB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Celeron Dual Core N3350 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 500',24080
+MSI,'GE72MVR 7RG',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',142030
+Acer,'Aspire A315-51',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 520',31290
+Dell,'Inspiron 5577',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1050',87448.2
+Dell,'Inspiron 7567',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1.0TB Hybrid','Nvidia GeForce GTX 1050',62930
+Lenovo,'V110-15IKB (i5-7200U/4GB/128GB/W10)',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 620',34860
+MSI,'GE73VR 7RE',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',132300
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i5 7500U 2.7GHz',4GB,'256GB SSD','Intel HD Graphics 620',75740
+HP,'15-BS103nv (i5-8250U/6GB/256GB/Radeon',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',6GB,'256GB SSD','AMD Radeon 520',43330
+Lenovo,'Yoga 520-14IKB',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'256GB SSD','Intel HD Graphics 620',44030
+Asus,'ZenBook Flip',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',92050
+Dell,'Inspiron 5579',15.6,'Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',73430
+Toshiba,'Satellite Pro',15.6,1366x768,'Intel Core i3 6006U 2.2GHz',4GB,'500GB HDD','Intel HD Graphics 520',31290
+Asus,'X555BP-XX180T (A9-9420/4GB/1TB/Radeon',15.6,1366x768,'AMD A9-Series 9420 3GHz',4GB,'1TB HDD','AMD Radeon R5 M420',28210
+Acer,'Aspire A517-51G',17.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'256GB SSD','Nvidia GeForce MX150',56350
+Dell,'Inspiron 3576',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','AMD Radeon 520',50960
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD','Nvidia GeForce GTX 1050 Ti',75530
+Acer,'Aspire A315-31',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 500',24360
+MSI,'GE63VR 7RE',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',125930
+Acer,'Aspire 3',15.6,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 505',25445.7
+Dell,'Inspiron 5577',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',74234.3
+Acer,'Aspire A517-51G',17.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Nvidia GeForce MX150',59780
+HP,'ProBook 430',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'500GB HDD','Intel UHD Graphics 620',52780
+Huawei,'MateBook X',13,'IPS Panel Full HD 2160x1440','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',94430
+HP,'17-bs001nv (i5-7200U/6GB/2TB/Radeon',17.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',6GB,'2TB HDD','AMD Radeon 520',48930
+Lenovo,'IdeaPad 320-15AST',15.6,1366x768,'AMD A6-Series 9220 2.9GHz',4GB,'500GB HDD','AMD Radeon R4 Graphics',21630
+Toshiba,'Satellite Pro',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'500GB HDD','Intel HD Graphics 620',34230
+HP,'ProBook 470',17.3,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',64610
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',8GB,'1TB HDD','Intel HD Graphics 620',32130
+Acer,'Aspire A315-51',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'128GB SSD','Intel HD Graphics 520',31430
+MSI,'GT80S 6QF-074US',18.4,'Full HD 1920x1080','Intel Core i7 6920HQ 2.9GHz',32GB,'512GB SSD +  1TB HDD','Nvidia GTX 980 SLI',195930
+Lenovo,'V310-15IKB (i5-7200U/8GB/1TB',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD +  1TB HDD','AMD R17M-M1-70',56910
+HP,'Spectre x360',13.3,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',104930
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'256GB SSD +  2TB HDD','AMD Radeon 530',73430
+Dell,'XPS 13',13.3,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',97930
+Lenovo,'Yoga 920-13IKB',13.9,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Intel UHD Graphics 620',129430
+Toshiba,'Satellite Pro',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD','Intel HD Graphics 620',55510
+Xiaomi,'Mi Notebook',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Nvidia GeForce MX150',83930
+Dell,'Inspiron 7773',17.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Nvidia GeForce 150MX',108430
+Dell,'XPS 15',15.6,'4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1050',167790
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',54530
+Acer,'Swift 7',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7Y54 1.2GHz',8GB,'256GB SSD','Intel HD Graphics 615',69230
+Dell,'Inspiron 5770',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon 530',75950
+Lenovo,'Thinkpad Yoga',14,'Touchscreen 2560x1440','Intel Core i7 7500U 2.7GHz',16GB,'1TB SSD','Intel HD Graphics 620',197680
+Vero,'K147 (N3350/4GB/32GB/FHD/W10)',14,'IPS Panel Full HD 1920x1080','Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',18200
+Xiaomi,'Mi Notebook',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce MX150',69993
+Lenovo,'IdeaPad 320-17IKBR',17.3,1600x900,'Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Nvidia GeForce MX150',48860
+Dell,'Inspiron 5379',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'1TB HDD','Intel UHD Graphics 620',58730
+HP,'ProBook 470',17.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'1TB HDD','Nvidia GeForce 930MX',63980
+Razer,'Blade Pro',17.3,'4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7820HK 2.9GHz',32GB,'1TB SSD','Nvidia GeForce GTX 1080',426930
+HP,'ProBook 430',13.3,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'512GB SSD','Intel UHD Graphics 620',67130
+HP,'Omen 17-W295',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',96530
+HP,'Probook 470',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Nvidia GeForce 930MX ',73150
+Dell,'Inspiron 7577',15.6,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',129150
+Lenovo,'V110-15ISK (i5-6200U/4GB/128GB/W10)',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'128GB SSD','Intel HD Graphics 520',34510
+Acer,'Aspire E5-576G',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce 940MX',51940
+Lenovo,'Legion Y720-15IKB',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',122430
+Dell,'Precision 7520',15.6,'4K Ultra HD 3840x2160','Intel Xeon E3-1505M V6 3GHz',16GB,'256GB SSD +  1TB HDD','Nvidia Quadro M1200',213850
+Lenovo,'Legion Y520-15IKBN',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1060',97860
+Dell,'Inspiron 3567',15.6,'Touchscreen 1366x768','Intel Core i3 7100U 2.4GHz',6GB,'1TB HDD','Intel HD Graphics 620',30730
+Dell,'XPS 13',13.3,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',136430
+Dell,'XPS 13',13.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',101430
+Lenovo,'IdeaPad 320-15IKBN',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',41790
+Acer,'Aspire 7',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',54530
+Asus,'ROG GL703VD-GC028T',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',98490
+HP,'15-bs018nq (i3-6006U/4GB/500GB/FHD/No',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',24430
+Lenovo,'IdeaPad 320-15IKBN',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',38430
+Huawei,'MateBook X',13,'IPS Panel Full HD 2160x1440','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',104930
+Dell,'Inspiron 5370',13.3,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','AMD Radeon 530',65231.6
+Lenovo,'IdeaPad 320-17IKB',17.3,1600x900,'Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Nvidia GeForce GTX 940MX',41230
+HP,'Probook 440',14,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',72170
+Dell,'Latitude 5490',14,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',80430
+Dell,'Inspiron 5379',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Intel UHD Graphics 620',89530
+Dell,'Inspiron 3576',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','AMD Radeon 520',47414.5
+Lenovo,'Yoga 520-14IKB',14,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',62930
+Toshiba,'Portege Z30-C-16L',13.3,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',95410
+HP,'ProBook 450',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'1TB HDD','Intel UHD Graphics 620',55580
+Dell,'Alienware 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',171943.8
+Acer,'Aspire E5-576G',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',58240
+Dell,'Inspiron 5567',15.6,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'1TB HDD','AMD Radeon R7 M445',60130.7
+Asus,'Vivobook X541UV-DM1217T',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 920MX ',53830
+Asus,'K756UX-T4340T (i5-7200U/8GB/500GB',17.3,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD +  500GB HDD','Nvidia GeForce GTX 950M',62370
+HP,'ZBook 15u',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','AMD FirePro W4190M ',88830
+Asus,'Pro P2540UA-XO0198T',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'1TB HDD','Intel HD Graphics 620',27929.3
+HP,'15-rb013nv (E2-9000e/4GB/500GB/W10)',15.6,1366x768,'AMD E-Series 9000e 1.5GHz',4GB,'500GB HDD','AMD Radeon R2',23100
+Lenovo,'Legion Y720-15IKB',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',104930
+Dell,'Vostro 5468',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',60130
+Acer,'Aspire R7',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',48230
+Dell,'Inspiron 5567',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'256GB SSD','AMD Radeon R7 M445',62930
+Acer,'Aspire A315-51',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 520',27300
+Asus,'X555QG-DM242T (A10-9620P/4GB/1TB',15.6,'Full HD 1920x1080','AMD A10-Series A10-9620P 2.5GHz',4GB,'128GB SSD +  1TB HDD','AMD Radeon R5 M430',40250
+Asus,'ROG G703VI-E5062T',17.3,'Full HD 1920x1080','Intel Core i7 7820HK 2.9GHz',32GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1080',272300
+Acer,'Nitro AN515-51',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',59220
+Lenovo,'IdeaPad 320-15ISK',15.6,1366x768,'Intel Core i3 6006U 2GHz',8GB,'128GB SSD','Intel HD Graphics 520',41230
+Asus,'VivoBook Pro',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce 150MX',80150
+Asus,'F756UX-T4201D (i7-7500U/8GB/128GB',17.3,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 950M',62230
+Dell,'Inspiron 5577',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',61530
+Lenovo,'Yoga 910-13IKB',13.9,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',75530
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'128GB SSD +  2TB HDD','AMD Radeon 530',68950
+HP,'15-bs015dx (i5-7200U/8GB/1TB/W10)',15.6,'Touchscreen 1366x768','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',39130
+Asus,'Rog G701VIK-BA060T',17.3,'Full HD 1920x1080','Intel Core i7 7820HK 2.9GHz',16GB,'256GB SSD','Nvidia GeForce GTX 1080',209930
+HP,'ProBook 430',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'500GB HDD','Intel UHD Graphics 620',47250
+Apple,'MacBook Pro',13.3,'IPS Panel Retina Display 2560x1600','Intel Core i5 3.1GHz',8GB,'512GB SSD','Intel Iris Plus Graphics 650',142800
+Dell,'Inspiron 5579',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'1TB HDD','Intel UHD Graphics 620',57330
+Asus,'ROG G752VSK-GC493T',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 980M',125930
+Asus,'X505BP-BR019T (A9-9420/4GB/1TB/Radeon',15.6,1366x768,'AMD A9-Series 9420 3GHz',4GB,'1TB HDD','AMD Radeon R5 M420',32830
+Lenovo,'Yoga 920-13IKB',13.9,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'512GB SSD','Intel UHD Graphics 620',129430
+Acer,'Aspire 5',17.3,'IPS Panel Full HD 1920x1080','Intel Core i3 7130U 2.7GHz',4GB,'256GB SSD','Nvidia GeForce MX130',49140
+Dell,'Vostro 5370',13.3,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',66430
+HP,'15-BW094nd (A6-9220/8GB/128GB/W10)',15.6,1366x768,'AMD A6-Series A6-9220 2.5GHz',8GB,'128GB SSD','AMD Radeon R4 Graphics',31213
+HP,'Envy 17-U275cl',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'1TB HDD','Nvidia GeForce MX150',74130
+MSI,'GT73EVR 7RE',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',174930
+Lenovo,'Yoga 720-15IKB',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'512GB SSD','Nvidia GeForce GTX 1050M',118930
+Dell,'Inspiron 5770',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon 530',79940
+Lenovo,'IdeaPad 320-15ISK',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'256GB SSD','Intel HD Graphics 520',31080
+HP,'ProBook 450',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'500GB HDD','Intel HD Graphics 620',50540
+Dell,'Vostro 3568',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Intel HD Graphics 620',45990
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','AMD Radeon R5 M430',39550
+Dell,'Inspiron 5579',15.6,'Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',55930
+Asus,'ZenBook Flip',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'512GB SSD +  512GB SSD','Intel UHD Graphics 620',104930
+Lenovo,'IdeaPad 320-15IKBN',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Intel HD Graphics 620',32690
+HP,'Probook 470',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'1TB HDD','Nvidia GeForce 930MX ',71260
+Lenovo,'V330-15IKB (i7-8550U/8GB/256GB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',61600
+Apple,'MacBook Pro',13.3,'IPS Panel Retina Display 2560x1600','Intel Core i5 2.9GHz',8GB,'512GB SSD','Intel Iris Graphics 550',137123
+Asus,'Rog Strix',17.3,'Full HD 1920x1080','AMD Ryzen 1700 3GHz',16GB,'256GB SSD +  1TB HDD','AMD Radeon RX 580',108430
+Dell,'Inspiron 3576',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','AMD Radeon 520',51454.9
+Lenovo,'ThinkPad X1',14,'Touchscreen 2560x1440','Intel Core i7 6600U 2.6GHz',16GB,'512GB SSD','Intel HD Graphics 520',174930
+Toshiba,'Satellite Pro',15.6,1366x768,'Intel Core i7 6500U 2.5GHz',8GB,'500GB HDD','Nvidia GeForce 930M',56840
+Dell,'Inspiron 5567',15.6,1366x768,'Intel Core i7 7500U 2.7GHz',12GB,'1TB HDD','Intel HD Graphics 620',49914.9
+Dell,'Inspiron 5770',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon 530',76930
+Acer,'Aspire A515-51G',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'1TB HDD','Nvidia GeForce MX130',52150
+Lenovo,'IdeaPad 320-17ISK',17.3,1600x900,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 520',34230
+Lenovo,'IdeaPad 320-17IKBR',17.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'2TB HDD','Nvidia GeForce MX150',59430
+Lenovo,'IdeaPad 320-17IKB',17.3,1600x900,'Intel Core i7 7500U 2.7GHz',6GB,'128GB SSD +  1TB HDD','Nvidia GeForce 940MX',60130
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','AMD Radeon R5 M430',29960
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',58030
+Lenovo,'Ideapad 320-15IKBN',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',6GB,'256GB SSD','Intel HD Graphics 620',40530
+Acer,'Aspire A517-51G',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Nvidia GeForce MX150',66570
+Acer,'SP315-51 (i7-7500U/12GB/1TB/FHD/W10)',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',12GB,'1TB HDD','Intel HD Graphics 620',46130
+Lenovo,'Thinkpad T570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 630',76790
+Asus,'VivoBook S15',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',68390
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',82530
+Lenovo,'IdeaPad 320-15IKB',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce 940MX',46130.7
+Acer,'Chromebook C910-C2ST',15.6,1366x768,'Intel Celeron Dual Core 3205U 1.5GHz',2GB,'16GB SSD','Intel HD Graphics',13930
+Asus,'FX753VD-GC071T (i7-7700HQ/8GB/1TB/GeForce',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',83090
+HP,'17-BS037cl (i3-6006U/8GB/1TB/W10)',17.3,1600x900,'Intel Core i3 6006U 2GHz',8GB,'1TB HDD','Intel HD Graphics 520',34230
+Dell,'XPS 15',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',128030
+Lenovo,'V330-15IKB (i5-8250U/8GB/256GB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',51730
+Lenovo,'Legion Y720-15IKB',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1060',90930
+Acer,'Aspire A715-71G',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050 Ti',68530
+Dell,'Precision 7720',17.3,'Full HD 1920x1080','Intel Core i7 7820HQ 2.9GHz',16GB,'256GB SSD','Nvidia Quadro M1200',201940.2
+Lenovo,'IdeaPad 310-15ABR',15.6,'Full HD 1920x1080','AMD A10-Series 9600P 2.4GHz',6GB,'1TB HDD','AMD Radeon R5 430',34930
+Asus,'ZenBook UX530UQ-PRO',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Nvidia GeForce 940MX',102760
+Asus,'VivoBook S14',14,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'128GB SSD','Intel HD Graphics 620',35630
+Asus,'Rog GL702VS-GC095T',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',148540
+Lenovo,'IdeaPad 320-17IKB',17.3,1600x900,'Intel Core i5 7200U 2.5GHz',6GB,'1TB HDD','Nvidia GeForce GTX 940M',45430
+Lenovo,'IdeaPad 320-15IKBN',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'2TB HDD','Nvidia GeForce 940MX',38430
+Asus,'GL553VE-FY082T (i7-7700HQ/8GB/1TB',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',88550
+Lenovo,'IdeaPad 320-15IAP',15.6,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 505',25199.3
+HP,'EliteBook x360',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 7600U 2.8GHz',16GB,'256GB SSD','Intel HD Graphics 620',138250
+Toshiba,'Satellite Pro',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 930M',73010
+Lenovo,'IdeaPad 320-15IKB',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce 940MX',57330
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 520',32830
+Lenovo,'IdeaPad 720S-13IKB',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',69930
+Dell,'XPS 13',13.3,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 8550U 1.8GHz',16GB,'1TB SSD','Intel UHD Graphics 620',174930
+MSI,'GE63VR 7RF',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',146930
+Acer,'ES1-523-84K7 (A8-7410/8GB/256GB/FHD/W10)',15.6,'Full HD 1920x1080','AMD A8-Series 7410 2.2GHz',8GB,'256GB SSD','AMD Radeon R5',32830
+Asus,'VivoBook Flip',11.6,'Touchscreen 1366x768','Intel Celeron Dual Core N3350 1.1GHz',2GB,'32GB Flash Storage','Intel HD Graphics 500',19250
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon 530',59080
+HP,'Spectre x360',13.3,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 8550U 1.8GHz',16GB,'1TB SSD','Intel UHD Graphics 620',171430
+Lenovo,'ThinkPad 13',13.3,1366x768,'Intel Celeron Dual Core 3855U 1.6GHz',4GB,'16GB Flash Storage','Intel HD Graphics 510',32193
+HP,'ProBook 640',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',68600
+Acer,'TravelMate B',11.6,1366x768,'Intel Pentium Quad Core N3710 1.6GHz',4GB,'128GB Flash Storage','Intel HD Graphics 405',33950
+HP,'Elitebook 840',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',90440
+Lenovo,'IdeaPad 320-17IKB',17.3,1600x900,'Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Nvidia GeForce 920MX',41230
+Asus,'ZenBook UX410UA-GV183T',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',76580
+HP,'ProBook 450',15.6,'IPS Panel Full HD 1366x768','Intel Core i7 8550U 1.8GHz',8GB,'1TB HDD','Intel UHD Graphics 620',63140
+Acer,'Aspire 5',15.6,1366x768,'AMD A12-Series 9720P 2.7GHz',8GB,'256GB SSD','AMD Radeon RX 540',46130
+Lenovo,'IdeaPad 120S-14IAP',14,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',20440
+Acer,'Aspire E5-575',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',6GB,'1TB HDD','Intel HD Graphics 620',38430
+Asus,'VivoBook S15',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',73493
+HP,'Elitebook 820',12.5,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',93450
+Dell,'XPS 15',15.6,'4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7700HQ 2.8GHz',32GB,'1TB SSD','Nvidia GeForce GTX 1050',184730
+MSI,'GL72M 7REX',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',83930
+Toshiba,'Satellite Pro',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',66010
+Asus,'UX510UX-CN269T (i7-7500U/8GB/256GB',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD +  1TB HDD','Intel HD Graphics 620',93380
+Lenovo,'V310-15ISK (i3-6006U/4GB/1TB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 520',31430
+Asus,'FX553VD-FY647T (i7-7700HQ/8GB/256GB/GeForce',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',69930
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i5 7300U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',88760
+Dell,'Inspiron 7570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce 940MX',73430
+HP,'Elitebook 850',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',80080
+Asus,'X541NA (N3350/4GB/1TB/Linux)',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 500',19249.3
+Dell,'Inspiron 7570',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',79992.5
+Dell,'Inspiron 3552',15.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'500GB HDD','Intel HD Graphics',19243
+Lenovo,'IdeaPad 320-15ABR',15.6,'Full HD 1920x1080','AMD A12-Series 9720P 3.6GHz',12GB,'2TB HDD','AMD Radeon 530',62930
+HP,'ProBook 450',15.6,'IPS Panel Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',8GB,'1TB HDD','Nvidia GeForce 930MX ',50120
+Lenovo,'Yoga 920-13IKB',13.9,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Intel UHD Graphics 620',146930
+Dell,'XPS 13',13.3,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',110530
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  2TB HDD','Nvidia GeForce GTX 1050 Ti',79030
+HP,'Stream 14-AX001nv',14,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',2GB,'32GB Flash Storage','Intel HD Graphics 400',19530
+Dell,'Latitude 5590',15.6,'Full HD 1920x1080','Intel Core i7 8650U 1.9GHz',16GB,'512GB SSD +  256GB SSD','Intel UHD Graphics 620',112557.2
+Asus,'VivoBook Flip',11.6,'Touchscreen 1366x768','Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',26250
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'1TB HDD','AMD Radeon 530',46410
+Dell,'XPS 15',15.6,'4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1050',141919.4
+HP,'Elitebook 850',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',91280
+MSI,'GP72MVR 7RFX',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',98630
+HP,'Zbook 15',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia Quadro M1200',121678.9
+Toshiba,'Tecra A50-C-21G',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',16GB,'512GB SSD','Nvidia GeForce 930M',98210
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'128GB SSD +  2TB HDD','AMD Radeon 530',67963
+Lenovo,'IdeaPad 320-15IAP',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 500',22539.3
+Dell,'Inspiron 7577',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',69930
+Dell,'Inspiron 3567',15.6,'Touchscreen 1366x768','Intel Core i5 7200U 2.5GHz',8GB,'2TB HDD','Intel HD Graphics 620',39015.9
+Dell,'Latitude 7480',14,'Full HD 1920x1080','Intel Core i5 7300U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',99890
+HP,'250 G6',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',30730
+Asus,'Zenbook UX410UA-GV027T',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',66150
+Lenovo,'IdeaPad 320-17IKB',17.3,1600x900,'Intel Core i5 7200U 2.5GHz',6GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 940MX',50330
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',44730
+Lenovo,'IdeaPad 320-15ISK',15.6,1366x768,'Intel Core i3 6006U 2GHz',8GB,'256GB SSD','Nvidia GeForce 920MX ',34930
+HP,'15-AY023na (N3710/8GB/2TB/W10)',15.6,1366x768,'Intel Pentium Quad Core N3710 1.6GHz',8GB,'2TB HDD','Intel HD Graphics 405',27230
+Dell,'Inspiron 5770',17.3,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon 530',75950
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',56630
+Dell,'Inspiron 5567',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','AMD Radeon R7 M445',62930
+HP,'Elitebook 1040',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',122500
+Asus,'ZenBook Flip',15.6,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',12GB,'512GB SSD +  2TB HDD','Nvidia GeForce GT 940MX',76930
+Acer,'Aspire 3',15.6,1366x768,'AMD A9-Series 9420 3GHz',4GB,'128GB SSD','AMD Radeon R5',29820
+Asus,'Rog Strix',17.3,'IPS Panel Full HD 1920x1080','AMD Ryzen 1700 3GHz',16GB,'256GB SSD +  1TB HDD','AMD Radeon RX 580',153930
+Lenovo,'IdeaPad 110-17ACL',17.3,1600x900,'AMD A8-Series 7410 2.2GHz',4GB,'128GB SSD','AMD Radeon R5',34230
+Dell,'Inspiron 5379',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',60830.7
+HP,'15-bw003nv (A9-Series-9420/4GB/256GB/FHD/W10)',15.6,'Full HD 1920x1080','AMD A9-Series 9420 3GHz',4GB,'256GB SSD','AMD Radeon R5',34229.3
+Lenovo,'Yoga 11e',11.6,'IPS Panel 1366x768','Intel Celeron Quad Core N3450 1.1GHz',4GB,'128GB SSD','Intel HD Graphics 500',38710
+Dell,'Inspiron 3552',15.6,1366x768,'Intel Celeron Dual Core N3060 1.60GHz',4GB,'500GB HDD','Intel HD Graphics 400',21630
+Asus,'VivoBook E403NA',14,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',20020
+Acer,'Aspire 7',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',59220
+HP,'Omen 17-w212nv',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',83370
+Lenovo,'V310-15ISK (i3-6006U/4GB/128GB/FHD/No',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'128GB SSD','Intel HD Graphics 520',28245
+Asus,'ROG Strix',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',115850
+Lenovo,'IdeaPad 720S-14IKB',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',76930
+Asus,'Zenbook Flip',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',122423
+Lenovo,'Thinkpad X1',14,'IPS Panel 2560x1440','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',159740
+Lenovo,'Ideapad 510S-13IKB',13.3,'IPS Panel Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'128GB SSD','Intel HD Graphics 620',38430
+Dell,'Precision 3510',15.6,'Full HD 1920x1080','Intel Core i5 6440HQ 2.6GHz',8GB,'500GB HDD','AMD FirePro W5130M',95830
+Dell,'Precision 5520',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HQ 2.7GHz',8GB,'256GB SSD','Nvidia Quadro M1200',149450
+Lenovo,'ThinkPad X1',14,'Touchscreen 2560x1440','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',175630
+Asus,'Rog GL753VD-GC042T',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',72730
+Asus,'Rog GL753VE-GC070T',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',111370
+Acer,'Aspire 5',15.6,'IPS Panel 1366x768','Intel Core i5 8250U 1.6GHz',12GB,'1TB HDD','Nvidia GeForce MX130',48579.3
+MSI,'Leopard GP72M',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050 Ti',94430
+Dell,'Inspiron 5567',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','AMD Radeon R7 M445',54520.9
+HP,'15-BW004nv (A9-9420/4GB/256GB/Radeon',15.6,'Full HD 1920x1080','AMD A9-Series 9420 3GHz',4GB,'256GB SSD','AMD Radeon 520',34930
+Lenovo,'ThinkPad E580',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','AMD Radeon RX 550',86069.2
+Lenovo,'ThinkPad L470',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',65660
+Dell,'Precision M5520',15.6,'4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia Quadro M1200',189840
+Lenovo,'Thinkpad X1',14,'IPS Panel 2560x1440','Intel Core i7 7500U 2.7GHz',16GB,'1TB SSD','Intel HD Graphics 620',183750
+Lenovo,'IdeaPad 320-15IAP',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 500',21420
+Asus,'FX753VD-GC461T (i7-7700HQ/16GB/1TB',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',107030
+Lenovo,'ThinkPad E580',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD +  1TB HDD','AMD Radeon RX 550',80115
+Acer,'Aspire 7',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',61530
+MSI,'GE73VR 7RF',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',157430
+Asus,'Zenbook 3',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',131110
+Toshiba,'Portege Z30-C-16P',13.3,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',16GB,'512GB SSD','Intel HD Graphics 520',122290
+Dell,'Latitude 7480',14,'Full HD 1920x1080','Intel Core i7 7600U 2.8GHz',8GB,'512GB SSD','Intel HD Graphics',117600
+Lenovo,'IdeaPad 320-15ISK',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',28630
+Lenovo,'Lenovo IdeaPad',11.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',2GB,'32GB Flash Storage','Intel HD Graphics 500',21311.5
+Lenovo,'ThinkPad P51',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'512GB SSD','Nvidia Quadro M1200',134750
+Lenovo,'Thinkpad T470p',14,'IPS Panel Full HD 2560x1440','Intel Core i7 7700HQ 2.8GHz',8GB,'512GB SSD','Nvidia GeForce GT 940MX',136010
+HP,'15-BS028nv (i3-6006U/4GB/1TB/Radeon',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','AMD Radeon 520',32830
+Acer,'Aspire R7',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',55230.7
+Asus,'ZenBook Flip',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',64960
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','AMD Radeon R5 M430',41923
+Dell,'Latitude 3380',13.3,1366x768,'Intel Core i3 6006U 2GHz',4GB,'128GB SSD','Intel HD Graphics 520',48230
+HP,'EliteBook 1040',14,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',105000
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',37796.5
+Lenovo,'ThinkPad E480',14,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','AMD Radeon RX 550',85076.6
+Lenovo,'Yoga 720-15IKB',15.6,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1050',132930
+Chuwi,'LapBook 12.3',12.3,'IPS Panel Retina Display 2736x1824','Intel Celeron Quad Core N3450 1.1GHz',6GB,'64GB Flash Storage','Intel HD Graphics 500',31430
+HP,'ProBook 650',15.6,'Full HD 1920x1080','Intel Core i7 7820HQ 2.9GHz',8GB,'256GB SSD','Intel HD Graphics 630',99890
+Asus,'X542UQ-DM117 (i3-7100U/8GB/1TB/GeForce',15.6,'Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',8GB,'1TB HDD','Nvidia GeForce 940MX',41790
+Dell,'Alienware 17',17.3,'IPS Panel 2560x1440','Intel Core i7 7820HK 2.9GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',195930
+Dell,'Inspiron 7577',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',81130
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD +  2TB HDD','AMD Radeon 530',79968
+Dell,'Latitude 5480',14,'Full HD 1920x1080','Intel Core i7 7600U 2.8GHz',8GB,'256GB SSD','Intel HD Graphics 620',76930
+HP,'Omen 17-w207nv',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',12GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',139930
+Mediacom,'FlexBook Edge',11.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB SSD','Intel HD Graphics 500',20930
+Samsung,'Chromebook 3',11.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'16GB Flash Storage','Intel HD Graphics 400',18830
+Lenovo,'Thinkpad 13',13.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',70700
+Lenovo,'IdeaPad 320s-14IKB',14,'IPS Panel Full HD 1920x1080','Intel Core i3 7130U 2.7GHz',4GB,'128GB SSD','Intel HD Graphics 620',41930
+Lenovo,'Thinkpad T570',15.6,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 7600U 2.8GHz',16GB,'512GB SSD','Nvidia GeForce 940MX',171150
+Lenovo,'Thinkpad P51',15.6,'Full HD 1920x1080','Intel Core i7 7820HQ 2.9GHz',16GB,'512GB SSD','Nvidia Quadro M2200M',171430
+Asus,'Rog Strix',17.3,'Full HD 1920x1080','AMD Ryzen 1600 3.2GHz',8GB,'256GB SSD +  1TB HDD','AMD Radeon RX 580',118650
+HP,'15-ra044nv (N3060/4GB/500GB/W10)',15.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'500GB HDD','Intel HD Graphics 400',24290
+Google,'Pixelbook (Core',12.3,'Touchscreen 2400x1600','Intel Core i7 7Y75 1.3GHz',16GB,'512GB SSD','Intel HD Graphics 615',153930
+Lenovo,'ThinkPad T470s',14,2560x1440,'Intel Core i7 7500U 2.7GHz',24GB,'512GB SSD','Intel HD Graphics 620',166740
+Asus,'VivoBook Max',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',39130
+Lenovo,'IdeaPad 320-15AST',17.3,1600x900,'AMD A6-Series 9220 2.5GHz',8GB,'1TB HDD','AMD Radeon R4',36330
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'256GB SSD','AMD Radeon 530',52430
+Lenovo,'ThinkPad X270',12.5,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',100030
+Lenovo,'IdeaPad 320-15IAP',15.6,'Full HD 1920x1080','Intel Pentium Quad Core N4200 1.1GHz',4GB,'128GB SSD','Intel HD Graphics 505',24430
+HP,'Omen 15-AX205na',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',76930
+Dell,'Latitude 5480',14,'Full HD 1920x1080','Intel Core i5 7440HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',82530
+Acer,'Aspire ES1-572',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',30926
+Dell,'Precision 3520',15.6,'Full HD 1920x1080','Intel Xeon E3-1505M V6 3GHz',8GB,'64GB Flash Storage +  1TB HDD','Nvidia Quadro M620',139510
+MSI,'GV62 7RD-1686NL',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',71941.8
+Microsoft,'Surface Laptop',13.5,'Touchscreen 2256x1504','Intel Core i7 7660U 2.5GHz',16GB,'512GB SSD','Intel Iris Plus Graphics 640',181230
+HP,'15-bs024nv (i5-7200U/8GB/128GB/W10)',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD','Intel HD Graphics 620',41230
+Dell,'Precision 3520',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HQ 2.7GHz',16GB,'256GB SSD','Nvidia Quadro M620',138250
+HP,'ProBook 650',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7820HQ 2.9GHz',8GB,'512GB SSD','Intel HD Graphics 620',107380
+Lenovo,'ThinkPad T470',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',94150
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon 530',68530
+Dell,'Inspiron 3168',11.6,'Touchscreen 1366x768','Intel Pentium Quad Core N3710 1.6GHz',4GB,'500GB HDD','Intel HD Graphics 405',33530
+Dell,'Alienware 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.7GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1060',143220
+Microsoft,'Surface Laptop',13.5,'Touchscreen 2256x1504','Intel Core M m3-7Y30 2.2GHz',4GB,'128GB SSD','Intel HD Graphics 615',69230
+Microsoft,'Surface Laptop',13.5,'Touchscreen 2256x1504','Intel Core i7 7660U 2.5GHz',8GB,'256GB SSD','Intel Iris Plus Graphics 640',125930
+HP,'17-BS092ND (i3-6006U/8GB/256GB/W10)',17.3,1600x900,'Intel Core i3 6006U 2GHz',8GB,'256GB SSD','Intel HD Graphics 520',44793
+Acer,'Aspire E5-576G',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Nvidia GeForce 940MX',38080
+Acer,'TravelMate B',11.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'128GB SSD','Intel HD Graphics 400',30450
+Asus,'Pro P2540UA-AB51',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',52430
+Lenovo,'IdeaPad 510s-14IKB',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','AMD Radeon R7 M460',55930
+Lenovo,'Thinkpad P51',15.6,'Full HD 1920x1080','Intel Core i7 7820HQ 2.9GHz',8GB,'256GB SSD','Nvidia Quadro M2200M',146300
+Asus,'X541NA-PD1003Y (N4200/4GB/500GB/W10)',15.6,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'500GB HDD','Intel HD Graphics 500',21280
+Acer,'Aspire 5',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Nvidia GeForce GTX 940MX',32830
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'2TB HDD','AMD Radeon 530',53130
+HP,'Omen 17-an006nv',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',12GB,'1TB HDD','Nvidia GeForce GTX 1060',118930
+Lenovo,'Thinkpad T460s',14,'IPS Panel Quad HD+ 2560x1440','Intel Core i7 6600U 2.6GHz',12GB,'256GB SSD','Intel HD Graphics 520',130060
+HP,'Spectre x360',13.3,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 8550U 1.8GHz',8GB,'512GB SSD','Intel UHD Graphics 620',139930
+HP,'ZBook 15u',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'500GB HDD','AMD FirePro W4190M ',80780
+Google,'Pixelbook (Core',12.3,'Touchscreen 2400x1600','Intel Core i5 7Y57 1.2GHz',8GB,'128GB SSD','Intel HD Graphics 615',89250
+Dell,'Latitude 7390',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',128929.5
+Asus,'ZenBook Pro',15.6,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 6700HQ 2.6GHz',12GB,'128GB SSD +  1TB HDD','Intel HD Graphics 530',90930
+Dell,'Latitude E5470',14,1366x768,'Intel Core i3 6100U 2.3GHz',8GB,'128GB SSD','Intel HD Graphics 520',51800
+Dell,'Precision M5520',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia Quadro M1200',168560
+Lenovo,'Thinkpad T470',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'180GB SSD','Intel HD Graphics 620',95480
+Dell,'Inspiron 3576',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'1TB HDD','AMD Radeon 520',47250
+Toshiba,'Portege X30-D-10J',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',117040
+Dell,'Inspiron 7570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'512GB SSD','Nvidia GeForce 940MX',88340
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'1TB HDD','Intel HD Graphics 620',41062
+HP,'ProBook 430',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'128GB SSD','Intel UHD Graphics 620',50820
+Chuwi,'Lapbook 15,6',15.6,'Full HD 1920x1080','Intel Atom x5-Z8350 1.44GHz',4GB,'64GB Flash Storage','Intel HD Graphics',17423
+Lenovo,'ThinkPad E570',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'128GB SSD','Intel HD Graphics 520',39550
+Lenovo,'ThinkPad E480',14,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',73430
+Dell,'Precision 3520',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HQ 2.7GHz',16GB,'512GB SSD','Nvidia Quadro M620',163660
+Dell,'XPS 15',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1050',132930
+Lenovo,'Thinkpad X270',12.5,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',125860
+Asus,'Zenbook UX390UA',12.5,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',136500
+Lenovo,'Thinkpad E570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',70839.3
+Toshiba,'Portege X30-D-10L',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',32GB,'512GB SSD','Intel HD Graphics 620',195930
+Asus,'VivoBook Pro',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',94500
+Acer,'Aspire 5',15.6,1366x768,'AMD A10-Series 9620P 2.5GHz',8GB,'1TB HDD','AMD Radeon RX 540',40530
+Asus,'Rog G752VL-UH71T',17.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6700HQ 2.6GHz',24GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 965M',88830
+Lenovo,'Thinkpad X260',12.5,'IPS Panel 1366x768','Intel Core i5 6200U 2.3GHz',8GB,'180GB SSD','Intel HD Graphics 520',76930
+Lenovo,'Ideapad 520-15IKBR',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',62923
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i7 7600U 2.8GHz',8GB,'1TB SSD','Intel HD Graphics 620',122430
+Lenovo,'ThinkPad 13',13.3,'IPS Panel Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',8GB,'256GB SSD','Intel HD Graphics 620',66430
+Lenovo,'ThinkPad L570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',63770
+Asus,'VivoBook E201NA',11.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'64GB Flash Storage','Intel HD Graphics 500',23800
+HP,'15-BS026nv (i5-7200U/8GB/256GB/Radeon',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','AMD Radeon 520',43329.3
+Lenovo,'Yoga 920-13IKB',13.9,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',111930
+Lenovo,'IdeaPad 320-14IAP',14,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'500GB HDD','Intel HD Graphics 500',20930
+Lenovo,'Chromebook N23',11.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'16GB SSD','Intel HD Graphics 400',18550
+Lenovo,'ThinkPad 13',13.3,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',66430
+Asus,'ZenBook UX510UX-CN211T',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD +  1TB HDD','Intel HD Graphics 620',85680
+Acer,'Aspire A515-51G-59QF',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'1TB HDD','Nvidia GeForce MX150',42910
+HP,'Envy 13-AB002nv',13.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',92610
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',80430
+Dell,'XPS 13',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD','Intel HD Graphics 620',62930
+Acer,'Aspire A515-51G',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',4GB,'500GB HDD','Nvidia GeForce 940MX',44730
+Dell,'Vostro 5568',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',58520
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'256GB SSD +  2TB HDD','AMD Radeon 530',85346.8
+Xiaomi,'Mi Notebook',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'256GB SSD','Nvidia GeForce MX150',97996.5
+Asus,'VivoBook E12',11.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',2GB,'32GB Flash Storage','Intel HD Graphics 500',17150
+HP,'15-bs190od (i5-8250U/4GB/1TB/W10)',15.6,'Touchscreen 1366x768','Intel Core i5 8250U 1.6GHz',4GB,'1TB HDD','Intel UHD Graphics 620',36502.9
+Asus,'ROG Zephyrus',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',24GB,'512GB SSD','Nvidia GeForce GTX1080',207760
+HP,'Probook 450',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',62230
+Asus,'FX753VE-GC155T (i7-7700HQ/16GB/1TB',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX1050 Ti',105280
+Lenovo,'Legion Y720-15IKB',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',97930
+HP,'Spectre X360',13.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',97930
+Dell,'Latitude 5480',14,'Full HD 1920x1080','Intel Core i5 7300U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',89581.1
+HP,'ProBook 440',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'128GB SSD','Intel HD Graphics 520',48230
+Dell,'Inspiron 5770',17.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon 530',62230
+Lenovo,'ThinkPad L470',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',93800
+Lenovo,'IdeaPad 320-15IKB',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',4GB,'1TB HDD','Nvidia GeForce 920MX',55930
+Lenovo,'IdeaPad 320-15ISK',15.6,1366x768,'Intel Core i3 6006U 2GHz',8GB,'2TB HDD','Nvidia GeForce 920MX ',32130
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','AMD Radeon R5 M430',40950
+Dell,'Latitude 5580',15.6,'Full HD 1920x1080','Intel Core i5 7440HQ 2.8GHz',8GB,'256GB SSD','Intel HD Graphics 620',96390
+Dell,'Alienware 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',210893.9
+Toshiba,'Satellite Pro',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'500GB HDD','Intel HD Graphics 620',60200
+Asus,'Zenbook UX510UW-FI095T',15.6,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',90930
+Mediacom,'SmartBook Edge',13.3,'IPS Panel Full HD 1920x1080','Intel Celeron Quad Core N3450 1.1GHz',4GB,'32GB SSD','Intel HD Graphics 500',25830
+Asus,'ROG Strix',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',115430
+Dell,'Latitude 5580',15.6,'Full HD 1920x1080','Intel Core i7 7600U 2.8GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',95830
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','AMD Radeon 530',55818.7
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Pentium Quad Core N3710 1.6GHz',4GB,'256GB SSD','Intel HD Graphics 405',27929.3
+HP,'Omen 15-ce006nv',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',12GB,'1TB HDD','Nvidia GeForce GTX 1060',125930
+Lenovo,'Thinkpad E470',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',60130
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','Intel UHD Graphics 620',97930
+Dell,'Vostro 5468',14,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'128GB SSD','Intel HD Graphics 520',51510.9
+HP,'Envy 13-AB020nr',13.3,'IPS Panel Quad HD+ 3200x1800','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',80150
+Acer,'Aspire 7',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',55860
+Asus,'VivoBook X540YA-XX519T',15.6,1366x768,'AMD E-Series 7110 1.8GHz',4GB,'500GB HDD','AMD Radeon R2 Graphics',24430
+HP,'ProBook 450',15.6,'Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'128GB SSD','Intel HD Graphics 620',49385
+Lenovo,'ThinkPad E470',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',54950
+Lenovo,'V310-15ISK (i5-6200U/4GB/1TB/FHD/No',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'1TB HDD','Intel HD Graphics 520',32364.5
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',27790
+Lenovo,'ThinkPad T570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',121030
+Lenovo,'IdeaPad 320-15ISK',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'128GB SSD','Intel HD Graphics 520',34930
+Dell,'Latitude 5580',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',78189.3
+Dell,'Alienware 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',188930
+HP,'17-X047na (i3-6006U/8GB/1TB/W10)',17.3,1600x900,'Intel Core i3 6006U 2GHz',8GB,'1TB HDD','Intel HD Graphics 520',38090.5
+HP,'ProBook 470',17.3,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce 930MX',89600
+Asus,'A541NA-GO342 (N3350/4GB/500GB/Linux)',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'500GB HDD','Intel HD Graphics 500',15680
+Mediacom,'SmartBook 130',13.3,'IPS Panel Full HD 1920x1080','Intel Atom x5-Z8350 1.44GHz',4GB,'32GB Flash Storage','Intel HD Graphics',17850
+Lenovo,'IdeaPad 320-17IKB',17.3,1600x900,'Intel Core i7 7500U 2.7GHz',6GB,'128GB SSD +  1TB HDD','Nvidia GeForce 940MX',66430
+HP,'15-bw007nv (A10-9620P/6GB/128GB/Radeon',15.6,'IPS Panel Full HD 1920x1080','AMD A10-Series A10-9620P 2.5GHz',6GB,'128GB SSD','AMD Radeon 530',39823
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','AMD Radeon R5 M420',43253
+Acer,'Spin SP111-31',11.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Celeron Dual Core N3350 2.0GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',24430
+Lenovo,'V330-15IKB (i3-7130U/4GB/128GB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i3 7130U 2.7GHz',4GB,'128GB SSD','Intel HD Graphics 620',44100
+HP,'EliteBook 1030',13.3,'IPS Panel Quad HD+ / Touchscreen 3200x1800','Intel Core M 6Y75 1.2GHz',16GB,'512GB SSD','Intel HD Graphics 515',137550
+Lenovo,'Thinkpad P71',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia Quadro M620M',209930
+Asus,'FX553VD-DM627T (i5-7300HQ/8GB/1TB',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',58730
+Dell,'XPS 13',13.3,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i5 8250U 1.6GHz',8GB,'128GB SSD','Intel UHD Graphics 620',111930
+Dell,'Latitude 5580',15.6,1366x768,'Intel Core i5 7300U 2.6GHz',4GB,'500GB HDD','Intel HD Graphics 620',67130
+Fujitsu,'Lifebook A557',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',51730
+Lenovo,'IdeaPad 320-15IAP',15.6,'Full HD 1920x1080','Intel Pentium Quad Core N4200 1.1GHz',4GB,'500GB HDD','Intel HD Graphics 505',24080
+Lenovo,'ThinkPad L470',14,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',69300
+HP,'ZBook 17',17.3,1600x900,'Intel Core i5 7440HQ 2.8GHz',8GB,'500GB HDD','Nvidia Quadro M1200',130269.3
+HP,'14-am079na (N3710/8GB/2TB/W10)',14,1366x768,'Intel Pentium Quad Core N3710 1.6GHz',8GB,'2TB HDD','Intel HD Graphics 405',27230
+HP,'15-cd005nv (A9-9420/6GB/256GB/Radeon',15.6,'IPS Panel Full HD 1920x1080','AMD A9-Series A9-9420 3GHz',6GB,'256GB SSD','AMD Radeon 530',45430
+Lenovo,'Thinkpad E570',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',58100
+Lenovo,'V330-15IKB (i5-8250U/4GB/500GB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'500GB HDD','Intel HD Graphics 620',47950
+Mediacom,'SmartBook 141',14,'Full HD 1920x1080','Intel Atom x5-Z8350 1.44GHz',4GB,'32GB SSD','Intel HD Graphics',17430
+Toshiba,'Tecra X40-D-10H',14,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',130550
+Lenovo,'IdeaPad Y910-17ISK',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HK 2.7GHz',32GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',186410
+MSI,'GT73VR Titan',17.3,'Full HD 1920x1080','Intel Core i7 7820HK 2.9GHz',16GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',191030
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','AMD Radeon R5 M430',52430.7
+Mediacom,'SmartBook Edge',14,'IPS Panel Full HD 1920x1080','Intel Celeron Quad Core N3450 1.1GHz',4GB,'32GB SSD','Intel HD Graphics 500',27230
+Dell,'Latitude 5580',15.6,1366x768,'Intel Core i5 7300U 2.6GHz',8GB,'500GB HDD','Intel HD Graphics 620',70596.4
+HP,'ProBook 430',13.3,'Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'128GB SSD','Intel HD Graphics 620',50330
+Dell,'Latitude 5580',15.6,'Full HD 1920x1080','Intel Core i7 7600U 2.8GHz',16GB,'256GB SSD','Nvidia GeForce 930MX',107617.3
+Dell,'Chromebook 11',11.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'16GB Flash Storage','Intel HD Graphics 400',20650
+MSI,'GT80S 6QE',17.3,'Full HD 1920x1080','Intel Core i7 6820HK 2.7GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 980M',164430
+HP,'Omen 17-AN010nv',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',104860
+Lenovo,'Thinkpad T460s',14,'IPS Panel Full HD 1920x1080','Intel Core i7 6600U 2.6GHz',12GB,'256GB SSD','Intel HD Graphics 520',117110
+Lenovo,'Ideapad 320-15IKBR',15.6,'Touchscreen 1366x768','Intel Core i7 8550U 1.8GHz',12GB,'1TB HDD','Intel HD Graphics 620',42630
+Asus,'ROG Strix',17.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',123900
+Asus,'TP501UA-CJ131T (i5-7200U/8GB/1TB/W10)',15.6,'Touchscreen 1366x768','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 520',51730
+Lenovo,'IdeaPad 320-15ABR',15.6,'Full HD 1920x1080','AMD A12-Series 9720P 3.6GHz',12GB,'512GB SSD','AMD Radeon 530',66430
+Dell,'Inspiron 3179',11.6,'Touchscreen 1366x768','Intel Core M 7Y30 1.0GHz',4GB,'128GB SSD','Intel HD Graphics 615',42210
+Samsung,'Notebook Odyssey',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',118930
+Lenovo,'V320-17ISK (i3-6006U/4GB/500GB/FHD/No',17.3,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',37030
+Lenovo,'IdeaPad 110-15ISK',15.6,1366x768,'Intel Core i3 6100U 2.3GHz',8GB,'1TB HDD','Intel HD Graphics 520',32130
+Lenovo,'ThinkPad Yoga',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',141750
+Lenovo,'Thinkpad T470p',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 630',103180
+Dell,'Latitude 5289',12.5,'Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',116900
+Dell,'Precision 3520',15.6,'Full HD / Touchscreen 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia Quadro M620',123410
+HP,'EliteBook 850',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',85330
+HP,'ProBook 450',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'500GB HDD','Intel HD Graphics 620',46793.6
+Acer,'Aspire 1',14,'Full HD 1920x1080','Intel Celeron Quad Core N3450 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',23030
+MSI,'Laptop MSI',17.3,'Full HD 1920x1080','Intel Core i7 6820HK 2.7GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 970M',153930
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','AMD Radeon R5 M420',32550
+MSI,'GS63VR 7RF',15.6,'4K Ultra HD 3840x2160','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  2TB HDD','Nvidia GeForce GTX 1060',160930
+Toshiba,'Tecra Z50-C-144',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',97930
+Lenovo,'IdeaPad 310-15IKB',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',6GB,'1TB HDD','Intel HD Graphics 620',39480
+Lenovo,'Yoga 720-15IKB',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Intel HD Graphics 630',90930
+Acer,'Swift SF114-31-P5HY',14,1366x768,'Intel Pentium Quad Core N3710 1.6GHz',4GB,'128GB Flash Storage','Intel HD Graphics 405',24430
+Lenovo,'Thinkpad P51',15.6,'IPS Panel 4K Ultra HD 3840x2160','Intel Xeon E3-1535M v6 3.1GHz',32GB,'1TB SSD','Nvidia Quadro M2200M',342930
+Dell,'Inspiron 7559',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'1TB HDD','Nvidia GeForce GTX 960<U+039C>',61530.7
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','Intel HD Graphics 520',31073
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','Intel HD Graphics 520',25130
+Dell,'Latitude 5580',15.6,1366x768,'Intel Core i5 7300U 2.6GHz',4GB,'500GB HDD','Intel HD Graphics 620',60830
+Asus,'FX753VD-GC007T (i7-7700HQ/8GB/1TB',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',81760
+Dell,'Vostro 3568',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'128GB SSD','AMD Radeon R5 M420',39830
+HP,'EliteBook 850',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',97230
+MSI,'GT62VR 7RE',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',158750.2
+Acer,'CB5-132T-C9KK (N3160/4GB/32GB/Chrome',11.6,'IPS Panel Touchscreen 1366x768','Intel Celeron Quad Core N3160 1.6GHz',4GB,'32GB Flash Storage','Intel HD Graphics 400',26530
+HP,'ProBook 650',14,1366x768,'Intel Core i5 7300U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',78680
+Lenovo,'ThinkPad T470',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',102550
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'1TB HDD','AMD Radeon 530',54320
+Fujitsu,'LifeBook A557',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',55930
+HP,'EliteBook 850',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',65240
+Lenovo,'IdeaPad 320-15IKB',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce 920MX',62930
+Mediacom,'SmartBook 140',14,'Full HD 1920x1080','Intel Atom x5-Z8350 1.44GHz',2GB,'32GB Flash Storage','Intel HD Graphics',16730
+Lenovo,'IdeaPad 320-15IKBN',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 620',32760
+Asus,'Q304UA-BHI5T11 (i5-7200U/6GB/1TB/FHD/W10)',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',6GB,'1TB HDD','Intel HD Graphics 620',44730.7
+Dell,'XPS 15',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',127400
+Asus,'ZenBook 3',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',133000
+Dell,'Inspiron 7567',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',103530
+Lenovo,'V330-15IKB (i5-8250U/4GB/256GB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'256GB SSD','Intel UHD Graphics 620',58030
+Lenovo,'Ideapad 320-15ISK',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Nvidia GeForce 920MX ',40530
+Asus,'X541NA-GO414T (N3350/8GB/1TB/W10)',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',8GB,'1TB HDD','Intel HD Graphics 500',27930
+Asus,'VivoBook Pro',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',63463.4
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',130830
+Lenovo,'IdeaPad 100S-14IBR',14,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',2GB,'32GB Flash Storage','Intel HD Graphics 400',17430
+Lenovo,'Thinkpad Yoga',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',123019.4
+Dell,'XPS 15',15.6,'4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7700HQ 2.8GHz',16GB,'1TB SSD','Nvidia GeForce GTX 1050',167930
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050M',77630
+HP,'17-AK091ND (A9-9420/8GB/1TB/W10)',17,1600x900,'AMD A9-Series 9420 3GHz',8GB,'1TB HDD','AMD Radeon R5',36463
+Lenovo,'ThinkPad X1',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',171500
+Asus,'ROG GL553VE-FY022',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050 Ti',81830
+Acer,'Extensa EX2540',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',31500
+Lenovo,'IdeaPad 100S-14IBR',14,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'32GB Flash Storage','Intel HD Graphics',19180
+Acer,'Swift 3',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel Graphics 620',64330
+Razer,'Blade Pro',14,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD','Nvidia GeForce GTX 1060',181930
+Toshiba,'Portege Z30-C-16J',13.3,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',84910
+Lenovo,'Thinkpad X270',12.5,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',110880
+Asus,'ROG G701VI',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HK 2.7GHz',32GB,'512GB SSD','Nvidia GeForce GTX 1080',195930
+Acer,'A715-71G-59DH (i5-7300HQ/8GB/1TB/GeForce',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',49630
+Dell,'XPS 13',13.3,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',101493
+MSI,'GL62M 7REX',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',83426
+HP,'250 G6',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',25543
+Toshiba,'Tecra A50-D-11M',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'500GB HDD','Intel HD Graphics 620',74480
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'256GB SSD','AMD Radeon 530',64330
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'256GB SSD +  2TB HDD','AMD Radeon 530',79450
+Lenovo,'IdeaPad Y700-15ISK',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960',83720
+Dell,'Alienware 17',17.3,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 7700HQ 2.8GHz',32GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',220315.9
+Dell,'Latitude E7470',14,'Full HD 1920x1080','Intel Core i5 6300U 2.4GHz',8GB,'256GB SSD','Intel HD Graphics 520',86030
+Lenovo,'Ideapad 320-15IAP',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'500GB HDD','Intel HD Graphics 500',29330
+Lenovo,'IdeaPad 320-15ISK',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',37450
+HP,'15-ay047nv (i3-6006U/6GB/1TB/Radeon',15.6,1920x1080,'Intel Core i3 6006U 2GHz',6GB,'1TB HDD','AMD Radeon R5 M430',37730
+MSI,'GP72VR Leopard',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',104073.9
+Toshiba,'Satellite Pro',15.6,1366x768,'Intel Core i3 6100U 2.1GHz',4GB,'128GB SSD','Intel HD Graphics 520',34860
+Dell,'Latitude 3580',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',66850
+HP,'15-bs012nv (i7-7500U/8GB/1TB/Radeon',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','AMD Radeon 530',52150
+Toshiba,'Tecra Z50-D-10E',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',88060
+Acer,'Aspire 3',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'128GB SSD','Intel HD Graphics 520',28840
+Microsoft,'Surface Laptop',13.5,'Touchscreen 2256x1504','Intel Core i7 7600U 2.8GHz',8GB,'256GB SSD','Intel Iris Plus Graphics 640',130749.5
+Lenovo,'V310-15ISK (i5-7200U/8GB/1TB',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon R5 M430',57256.5
+Lenovo,'Yoga 720-13IKB',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',72380
+Lenovo,'IdeaPad 320-15AST',15.6,1366x768,'AMD E-Series E2-9000 2.2GHz',4GB,'128GB SSD','AMD Radeon R2 Graphics',24430
+HP,'Pavilion X360',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'128GB SSD','Nvidia GeForce 940MX',48930
+MSI,'GP62 7RDX',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',90580
+Asus,'Zenbook 3',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',79450
+HP,'Chromebook X360',11.6,'Touchscreen 1366x768','Intel Celeron Dual Core N3350 1.1GHz',8GB,'64GB Flash Storage','Intel HD Graphics 500',34650
+LG,'Gram 15Z975',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'512GB SSD','Intel HD Graphics 620',160930
+Acer,'Aspire VX5-591G',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',16GB,'256GB SSD','Nvidia GeForce GTX 1050 Ti',90930
+MSI,'GV62M 7RD',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',69853
+Asus,'L502NA-GO052T (N3350/4GB/128GB/W10)',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'128GB SSD','Intel HD Graphics 500',29330
+Dell,'Alienware 15',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',143570
+HP,'17-bs000nv I3',17.3,'IPS Panel Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'256GB SSD','AMD Radeon R5 520',48930
+Lenovo,'Yoga 730',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',8GB,'512GB SSD','Intel UHD Graphics 620',104930
+Dell,'Alienware 15',15.6,'Full HD 1920x1080','Intel Core i7 7820HK 2.9GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',196962.5
+HP,'250 G6',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','AMD Radeon 520',42882.7
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','AMD Radeon R5 M430',38196.9
+HP,'17-Y002nv (A10-9600P/6GB/2TB/Radeon',17.3,'IPS Panel Full HD 1920x1080','AMD A10-Series 9600P 2.4GHz',6GB,'2TB HDD','AMD Radeon R7 M440',39830
+Lenovo,'V110-15ISK (3855U/4GB/500GB/W10)',15.6,1366x768,'Intel Celeron Dual Core 3855U 1.6GHz',4GB,'500GB HDD','Intel HD Graphics 510',22260
+Acer,'Chromebook 14',14,1366x768,'Intel Celeron Dual Core 3855U 1.6GHz',4GB,'32GB Flash Storage','Intel HD Graphics 510',26250
+Lenovo,'IdeaPad 520s-14IKB',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',48930
+HP,'ZBook 17',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'500GB HDD','Nvidia Quadro M1200',133559.3
+Lenovo,'ThinkPad X1',14,'Touchscreen 2560x1440','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',181300
+Toshiba,'Satellite Pro',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',68110
+Acer,'TravelMate B117-M',11.6,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',4GB,'32GB Flash Storage','Intel HD Graphics',18830
+Lenovo,'Yoga 910-13IKB',14,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',122430
+Asus,'Chromebook Flip',12.5,'Full HD / Touchscreen 1920x1080','Intel Core M M3-6Y30 0.9GHz',4GB,'64GB Flash Storage','Intel HD Graphics 515',46830
+Toshiba,'Portege Z30T-C-133',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.5GHz',16GB,'512GB SSD','Intel HD Graphics 520',131390
+HP,'15-bs011nv (i7-7500U/4GB/500GB/Radeon',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',4GB,'500GB HDD','AMD Radeon 530',48230
+Dell,'Inspiron 5577',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',57330
+Lenovo,'IdeaPad 320-15AST',15.6,'Full HD 1920x1080','AMD A9-Series 9420 2.9GHz',4GB,'256GB SSD','AMD Radeon 530',27930
+Lenovo,'IdeaPad 320-15ABR',15.6,1366x768,'AMD A12-Series 9720P 3.6GHz',8GB,'1TB HDD','AMD Radeon R7',30030
+Lenovo,'V310-15IKB (i5-7200U/4GB/1TB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD +  1TB HDD','Intel HD Graphics 620',43501.5
+Lenovo,'V310-15ISK (i3-6006U/4GB/500GB/No',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',31500
+Dell,'Vostro 5568',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',55650
+Acer,'Spin 5',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'256GB SSD','Intel UHD Graphics 620',69930
+Lenovo,'ThinkPad P51s',15.6,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',16GB,'512GB SSD','Nvidia Quadro M520M',129850
+Lenovo,'Thinkpad T460p',14,'Full HD 1920x1080','Intel Core i5 6300HQ 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',83370
+HP,'17-ak002nv (A10-9620P/6GB/2TB/Radeon',17.3,'IPS Panel Full HD 1920x1080','AMD A10-Series 9620P 2.5GHz',6GB,'2TB HDD','AMD Radeon 530',45850.7
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',87430
+Dell,'Latitude 5480',14,'Full HD 1920x1080','Intel Core i5 7440HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',76230
+Dell,'Vostro 5568',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',50820
+Asus,'VivoBook E403NA',14,'Full HD 1920x1080','Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',20860
+Dell,'Latitude 5580',15.6,'Full HD 1920x1080','Intel Core i5 7300U 2.6GHz',16GB,'512GB SSD','Intel HD Graphics 620',99866.2
+Lenovo,'Thinkpad E470',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 920MX',59994.9
+Dell,'Latitude 5580',15.6,'Full HD 1920x1080','Intel Core i5 7300U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',82530
+Lenovo,'110-15ACL (A6-7310/4GB/500GB/W10)',15.6,1366x768,'AMD A6-Series 7310 2GHz',4GB,'500GB HDD','AMD Radeon R4',20860
+Mediacom,'Smartbook 142',14,'IPS Panel Full HD 1920x1200','Intel Atom Z8350 1.92GHz',4GB,'32GB HDD','Intel HD Graphics 400',18550
+HP,'ProBook 470',17.3,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',84000
+Lenovo,'ThinkPad X1',14,'IPS Panel Quad HD+ 2560x1440','Intel Core i7 6500U 2.5GHz',8GB,'512GB SSD','Intel HD Graphics 520',118064.8
+HP,'Pavilion X360',13.3,'IPS Panel Touchscreen 1366x768','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',58562
+Lenovo,'ThinkPad T470s',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',104930
+Dell,'Alienware 17',17.3,'4K Ultra HD 3840x2160','Intel Core i7 7700HQ 2.8GHz',32GB,'1TB SSD +  1TB HDD','Nvidia GeForce GTX 1070',256158
+MSI,'GL72M 7REX',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',94393.6
+Lenovo,'V310-15IKB (i5-7200U/4GB/1TB/No',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Intel HD Graphics 620',34293
+Dell,'Inspiron 5570',15.6,'Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'128GB SSD +  1TB HDD','AMD Radeon 530',50330
+Dell,'Inspiron 5378',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'1TB HDD','Intel HD Graphics 620',45430
+Dell,'Inspiron 5567',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','AMD Radeon R7 M445',41266.4
+HP,'15-BW037na (A9-9420/4GB/1TB/Radeon',15.6,'Full HD 1920x1080','AMD A9-Series 9420 3GHz',4GB,'1TB HDD','AMD Radeon 520',34230
+Acer,'Predator 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',135450
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',12GB,'1TB HDD','Intel HD Graphics 620',45430
+HP,'15-BW091ND (A9-9420/6GB/1TB',15.6,'Full HD 1920x1080','AMD A9-Series A9-9420 3GHz',6GB,'128GB SSD +  1TB HDD','AMD Radeon 520',45500
+Acer,'Extensa EX2540-58KR',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',39130
+Lenovo,'ThinkPad 13',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',67200
+Lenovo,'V310-15IKB (i7-7500U/4GB/1TB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',4GB,'1TB HDD','Intel HD Graphics 620',54530
+HP,'ZBook 15',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD','Nvidia Quadro M2200',169330
+Dell,'Inspiron 5379',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 8250U 1.6GHz',8GB,'1TB HDD','Intel UHD Graphics 620',46130
+MSI,'GS63VR 7RF',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',146613.6
+Acer,'Aspire ES1-572',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',28756
+Dell,'Inspiron 7560',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce 940MX',84490
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 6006U 2GHz',8GB,'256GB SSD','Intel HD Graphics 520',46550
+Toshiba,'Tecra X40-D-10G',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',107450
+Lenovo,'Flex 5',14,'Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',69930
+Lenovo,'Thinkpad P51s',15.6,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 7600U 2.8GHz',16GB,'1TB SSD','Nvidia Quadro M520M',230930
+Acer,'Chromebook 14',14,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',2GB,'32GB Flash Storage','Intel HD Graphics 400',23100
+Samsung,'Notebook 9',13.3,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'256GB SSD','Intel HD Graphics 620',115430
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',8GB,'256GB SSD','Intel HD Graphics 520',37730
+Dell,'Latitude 5480',14,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',78869.7
+HP,'Zbook 17',17.3,'IPS Panel Full HD 1920x1080','Intel Xeon E3-1535M v5 2.9GHz',16GB,'256GB SSD','Nvidia Quadro M2000M',307230
+Lenovo,'N23 (N3060/4GB/128GB/W10)',11.6,'Touchscreen 1366x768','Intel Celeron Dual Core N3060 1.6GHz',4GB,'128GB SSD','Intel HD Graphics 400',33250
+HP,'EliteBook 850',15.6,'Full HD 1920x1080','Intel Core i5 6300U 2.4GHz',8GB,'256GB SSD','Intel HD Graphics 520',133000
+Asus,'X550VX-XX015D (i5-6300HQ/4GB/1TB/GeForce',15.6,1366x768,'Intel Core i5 6300HQ 2.3GHz',4GB,'1TB HDD','Nvidia GeForce GTX 950M',40530
+Lenovo,'Thinkpad T460',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'180GB SSD','Intel HD Graphics 520',76720
+Asus,'Pro P2540UA-XO0192R',15.6,1366x768,'Intel Core i7 7500U 2.7GHz',4GB,'256GB SSD','Intel HD Graphics 620',59493
+Lenovo,'Yoga 900-13ISK',13.3,'IPS Panel Quad HD+ / Touchscreen 3200x1800','Intel Core i5 6260U 1.8GHz',8GB,'256GB SSD','Intel HD Graphics 540',83930
+HP,'15-cb003na (i5-7300HQ/8GB/1TB',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',76930
+HP,'ZBook 15',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'256GB SSD','Nvidia Quadro M1000M',109270
+Dell,'Alienware 17',15.6,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',200829.3
+Acer,'Aspire 3',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',41930
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',73360
+Dell,'Latitude 7280',12.5,'Full HD 1920x1080','Intel Core i7 7600U 2.8GHz',16GB,'256GB SSD','Intel HD Graphics 620',130130
+Google,'Pixelbook (Core',12.3,'Touchscreen 2400x1600','Intel Core i5 7Y57 1.2GHz',8GB,'256GB SSD','Intel HD Graphics 615',109130
+Asus,'Zenbook UX330UA-AH5Q',13.3,'IPS Panel Quad HD+ 3200x1800','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',79030
+Dell,'Latitude 3380',13.3,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',59430
+Acer,'TravelMate P238-M',13.3,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'128GB SSD','Intel HD Graphics 520',45850
+Asus,'X751NV-TY001 (N4200/4GB/1TB/GeForce',17.3,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'1TB HDD','Nvidia GeForce 920MX',32923.8
+Dell,'Inspiron 7559',15.6,'IPS Panel Touchscreen / 4K Ultra HD 3840x2160','Intel Core i7 6700HQ 2.6GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',76930
+Samsung,'Notebook 9',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',111930
+Acer,'Aspire A315-31',15.6,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 505',20860
+Dell,'Inspiron 5567',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'256GB SSD','AMD Radeon R7 M445',82688.9
+Samsung,'Notebook 9',15,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'256GB SSD','AMD Radeon 540',125930
+Toshiba,'Tecra A40-C-1E5',14,'IPS Panel 1366x768','Intel Core i5 6200U 2.3GHz',4GB,'128GB SSD','Intel HD Graphics 520',71400
+Dell,'Inspiron 7567',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',76930
+HP,'EliteBook 820',12.5,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'256GB SSD','Intel HD Graphics 520',87080
+Asus,'Q524UQ-BHI7T15 (i7-7500U/12GB/2TB/GeForce',15.6,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',12GB,'2TB HDD','Nvidia GeForce 940MX',58730
+Lenovo,'Thinkpad P50',15.6,'4K Ultra HD 3840x2160','Intel Core i7 6820HQ 2.7GHz',16GB,'512GB SSD','Nvidia Quadro M2000M',165900
+Acer,'Swift 3',14,'IPS Panel Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'128GB SSD','Intel HD Graphics 620',44520
+Razer,'Blade Pro',14,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1060',202930
+Asus,'Vivobook Max',15.6,1920x1080,'Intel Pentium Dual Core N4200 1.1GHz',8GB,'128GB SSD','Intel HD Graphics 505',40733
+Dell,'Alienware 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',32GB,'1TB SSD +  1TB HDD','Nvidia GeForce GTX 1070M',251216
+Asus,'Rog G752VS-BA171T',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',164500
+Toshiba,'Tecra Z40-C-161',14,'IPS Panel Full HD 1920x1080','Intel Core i7 6600U 2.6GHz',16GB,'512GB SSD','Nvidia GeForce 930M',123480
+Lenovo,'IdeaPad 110-15IBR',15.6,1366x768,'Intel Celeron Quad Core N3710 1.6GHz',8GB,'1TB HDD','Intel HD Graphics 405',23030
+Lenovo,'ThinkPad T470s',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',160930
+MSI,'GS43VR 7RE',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',132370
+MSI,'GL62M (i5-7300HQ/8GB/1TB',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',76230
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',4GB,'1TB HDD','Nvidia GeForce GTX 1050',69930
+Acer,'Predator G9-793',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',160930
+Dell,'Inspiron 7567',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',68950
+Asus,'FX502VM-DM560T (i7-7700HQ/8GB/1TB',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX1060',93730
+Vero,'K146 (N3350/4GB/32GB/W10)',14,1920x1080,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',14203
+Lenovo,'ThinkPad Yoga',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',137900
+Lenovo,'Yoga 510-15IKB',15.6,'Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','AMD Radeon R7 M460',67130
+Apple,'MacBook 12',12,'IPS Panel Retina Display 2304x1440','Intel Core M 1.2GHz',8GB,'512GB Flash Storage','Intel HD Graphics 5300',81550
+Lenovo,'ThinkPad X1',14,'IPS Panel Touchscreen 2560x1440','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',163100
+Asus,'R417NA-RS01 (N3350/4GB/32GB/W10)',14,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',20930
+Dell,'Latitude 3580',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD','Intel HD Graphics 620',56700
+Lenovo,'Yoga 910-13IKB',13.9,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',94430
+Dell,'Vostro 5568',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',8GB,'256GB SSD','AMD Radeon R5 M420X',51730
+HP,'ZBook 17',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia Quadro M2200',144543
+Asus,'Pro P2540UA-XS51',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',76930
+Dell,'XPS 13',13.3,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',104930
+Dell,'XPS 15',15.6,'4K Ultra HD / Touchscreen 3840x2160','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',122430
+Dell,'Latitude 3180',11.6,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'128GB SSD','Intel HD Graphics 505',52080
+HP,'EliteBook 820',12.5,1366x768,'Intel Core i5 7300U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',97230
+Toshiba,'Satellite Pro',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',54600
+HP,'15-ba043na (A12-9700P/8GB/2TB/W10)',15.6,1366x768,'AMD A12-Series 9700P 2.5GHz',8GB,'2TB HDD','AMD Radeon R7 Graphics',44030
+Dell,'Inspiron 7567',15.6,'4K Ultra HD 3840x2160','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1050 Ti',117530
+Lenovo,'IdeaPad 310-15IKB',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Nvidia GeForce 920M',42630
+HP,'Omen 17-an012dx',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',12GB,'1TB HDD','AMD Radeon RX 580',122430
+MSI,'GE72MVR 7RG',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',169050
+Samsung,'Notebook 9',13.3,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',104930
+Dell,'Vostro 5568',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce GT 940MX',67270
+Dell,'Vostro 3568',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','AMD Radeon R5 M420',55286.7
+Lenovo,'Thinkpad T470s',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',130130
+Razer,'Blade Stealth',12.5,'IPS Panel 4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7500U 2.5GHz',16GB,'512GB SSD','Intel HD Graphics 620',125930
+HP,'Chromebook 11',11.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'16GB Flash Storage','Intel HD Graphics 400',26950
+Dell,'Alienware 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',175351.4
+Dell,'Latitude 3480',14,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',52850
+Lenovo,'V110-15ISK (i3-6006U/4GB/500GB/W10)',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',34293
+Toshiba,'Tecra X40-D-10Z',14,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 620',76300
+Lenovo,'Thinkpad X1',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',174930
+MSI,'GL62M 7RD',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'256GB SSD','Nvidia GeForce GTX 1050',83930
+Lenovo,'ThinkPad X1',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB Flash Storage','Intel HD Graphics 620',131250
+Toshiba,'Satellite Pro',14,1366x768,'Intel Pentium Dual Core 4405U 2.1GHz',4GB,'128GB SSD','Intel HD Graphics 510',34930
+Asus,'ZenBook Flip',13.3,'Touchscreen / Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',95060
+Dell,'Latitude 3480',14,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',40950
+Acer,'Chromebook 11',11.6,'IPS Panel 1366x768','Intel Celeron Dual Core N3060 1.6GHz',4GB,'32GB Flash Storage','Intel HD Graphics 400',24850
+Acer,'Swift 3',14,'IPS Panel Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',8GB,'128GB SSD','Intel HD Graphics 620',43330
+Razer,'Blade Pro',17.3,'4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7820HK 2.9GHz',32GB,'512GB SSD','Nvidia GeForce GTX 1080',384930
+Lenovo,'Thinkpad X1',14,'IPS Panel Quad HD+ 2560x1440','Intel Core i7 6600U 2.6GHz',16GB,'512GB SSD','Intel HD Graphics 520',146930
+Asus,'VivoBook Max',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Nvidia GeForce 920',36330
+Lenovo,'Thinkpad T460',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',83020
+Lenovo,'ThinkPad T470s',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7300U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',115500
+Dell,'Alienware 15',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',194224.1
+Asus,'Rog GL702VS-BA023T',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',169330
+Toshiba,'Satellite Pro',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'500GB HDD','Intel HD Graphics 620',46830
+Lenovo,'N42-20 Chromebook',14,1366x768,'Intel Celeron Quad Core N3160 1.6GHz',4GB,'16GB Flash Storage','Intel HD Graphics 400',22750
+Asus,'R558UA-DM966T (i5-7200U/8GB/128GB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'128GB HDD','Intel HD Graphics 620',41300
+Asus,'Rog GL702VM-GC017T',17.3,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',125930
+Dell,'Alienware 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',32GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',215102.3
+HP,'ProBook 470',17.3,1600x900,'Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Nvidia GeForce 930MX',63700
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD','Intel HD Graphics 620',49979.3
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'512GB SSD','Intel HD Graphics 520',130900
+Dell,'Vostro 3568',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',4GB,'256GB SSD','AMD Radeon R5 M420',51730
+HP,'Chromebook X360',11.6,'Touchscreen 1366x768','Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',43050
+Asus,'ZenBook UX310UQ-GL026T',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'512GB SSD','Nvidia GeForce 940M',71820
+HP,'EliteBook x360',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',159390
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'512GB SSD','Intel HD Graphics 520',102760
+HP,'250 G6',15.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'128GB SSD','Intel HD Graphics 400',20930
+Asus,'Rog GL502VM-DS74',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',132930
+Dell,'Inspiron 5767',17.3,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','AMD Radeon R7 M445',60550
+Lenovo,'ThinkPad T470p',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD','Nvidia GeForce GT 940MX',133210
+Asus,'K556UR-DM621T (i7-7500U/8GB/256GB/GeForce',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce GTX 930MX',55090
+Dell,'Latitude 5580',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD','Intel HD Graphics 620',66150
+Asus,'X541NA (N4200/4GB/1TB/W10)',15.6,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 505',31430
+HP,'EliteBook x360',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 7600U 2.8GHz',8GB,'256GB SSD','Intel HD Graphics 620',179130
+Dell,'Inspiron 5368',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'1TB HDD','Intel HD Graphics 520',45430
+Lenovo,'IdeaPad 110-15ISK',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','Intel HD Graphics 520',32830
+Lenovo,'ThinkPad E570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',59546.2
+HP,'EliteBook 850',15.6,'Full HD 1920x1080','Intel Core i5 7300U 2.6GHz',8GB,'256GB SSD','AMD Radeon R7 M465',94430
+Toshiba,'Portege X30-D-10X',13.3,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 620',89950
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',71190
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 7660U 2.5GHz',16GB,'512GB SSD','Intel Iris Plus Graphics 640',156800
+HP,'Probook 450',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',63700
+Toshiba,'Port�g� Z30-C-188',13.3,1366x768,'Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',76650
+Lenovo,'ThinkPad Yoga',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',136500
+Acer,'TMX349-G2-M-50FS (i5-7200U/8GB/256GB/FHD/W10)',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',63140
+Dell,'Precision 3520',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia Quadro M620',124460
+Lenovo,'ThinkPad L570',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',73850
+Lenovo,'IdeaPad 110-15ISK',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','AMD Radeon R5 M430',33530
+Toshiba,'Tecra A50-D-11D',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',97160
+Lenovo,'Thinkpad 13',13.3,'IPS Panel Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'180GB SSD','Intel HD Graphics 620',51450
+Samsung,'Notebook 9',15,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'256GB SSD','Nvidia GeForce 940MX',129430
+Dell,'Latitude 7280',12.5,'Full HD 1920x1080','Intel Core i7 7600U 2.8GHz',8GB,'256GB SSD','Intel HD Graphics 620',118300
+Asus,'X541NA-GO121 (N4200/4GB/1TB/Linux)',15.6,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 505',27929.3
+Xiaomi,'Mi Notebook',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',65450
+Dell,'Vostro 5568',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'128GB SSD +  1TB HDD','Nvidia GeForce 940MX',63875
+HP,'ProBook 450',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',58730
+HP,'EliteBook x360',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',119000
+HP,'Pavilion x360',15.6,'Touchscreen 1366x768','Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',47936
+Asus,'VivoBook L402NA',14.1,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',24360
+Lenovo,'IdeaPad 510-15ISK',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'1TB HDD','Nvidia GeForce 940MX',46830
+Dell,'Inspiron 3552',15.6,1366x768,'Intel Pentium Quad Core N3710 1.6GHz',4GB,'500GB HDD','Intel HD Graphics',25830
+HP,'EliteBook x360',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',125930
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','AMD Radeon R5 M420X',31899
+Asus,'Rog GL753VD-GC082T',17.3,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',12GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',95893
+Acer,'Chromebook C731-C78G',11.6,'IPS Panel 1366x768','Intel Celeron Dual Core N3060 1.6GHz',4GB,'32GB Flash Storage','Intel HD Graphics 400',20790
+Lenovo,'IdeaPad 110-17ACL',17.3,1600x900,'AMD A4-Series 7210 2.2GHz',4GB,'500GB HDD','AMD Radeon R3',26530
+HP,'Probook 640',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 620',88550
+HP,'Envy x360',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 7500U 2.7GHz',16GB,'256GB SSD','Intel HD Graphics 620',97930
+Samsung,'Notebook 9',15,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',118930
+Lenovo,'ThinkPad T470s',14,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',125930
+MSI,'GS73VR Stealth',17.3,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 6700HQ 2.6GHz',16GB,'512GB SSD +  2TB HDD','Nvidia GeForce GTX 1060',185430
+Toshiba,'Portege X30-D-10V',13.3,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',103250
+Dell,'Inspiron 7567',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050Ti',65030
+HP,'ProBook 450',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce 930MX',63000
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','AMD Radeon R5 M420X',42980
+Dell,'Latitude 5580',15.6,'Full HD 1920x1080','Intel Core i5 7300U 2.6GHz',8GB,'500GB HDD','Intel HD Graphics 620',65450
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 7Y75 1.3GHz',8GB,'512GB SSD','Intel HD Graphics 615',140917
+Asus,'G701VO-IH74K (i7-6820HK/32GB/2x',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HK 2.7GHz',32GB,'256GB SSD +  256GB SSD','Nvidia GeForce GTX 980M',89530
+Dell,'XPS 13',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 7Y75 1.3GHz',16GB,'256GB SSD','Intel HD Graphics 615',115430
+Lenovo,'ThinkPad X1',14,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB Flash Storage','Intel HD Graphics 620',143430
+Lenovo,'ThinkPad T570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'512GB SSD','Intel HD Graphics 620',137409.3
+LG,'Gram 15Z970',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',146930
+HP,'Elitebook 820',12.5,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',103810
+Acer,'Chromebook CB5-571-C1DZ',15.6,'IPS Panel Full HD 1920x1080','Intel Celeron Dual Core 3205U 1.5GHz',4GB,'16GB Flash Storage','Intel HD Graphics',25130
+Lenovo,'IdeaPad Y700-15ISK',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 6300HQ 2.3GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',55230
+LG,'Gram 14Z970',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',132930
+Dell,'Latitude 5480',14,'Full HD 1920x1080','Intel Core i5 7440HQ 2.8GHz',8GB,'256GB SSD','Intel HD Graphics 620',84350
+HP,'Elitebook Folio',12.5,'4K Ultra HD / Touchscreen 3840x2160','Intel Core M 6Y75 1.2GHz',8GB,'240GB SSD','Intel HD Graphics 515',217000
+Lenovo,'IdeaPad 510-15IKB',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',6GB,'256GB SSD','Nvidia GeForce 940MX',55230
+HP,'ProBook 450',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',71329.3
+Acer,'Aspire E5-575',15.6,'Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'1TB HDD','Intel HD Graphics 620',34930
+Lenovo,'ThinkPad 13',13.3,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 620',61670
+HP,'Probook 430',13.3,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',67200
+MSI,'GE72VR 6RF',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',111930
+Dell,'Inspiron 7567',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',94430
+MSI,'GL62M 7RD',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',78393.7
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','AMD Radeon R5 M420',47949.3
+HP,'EliteBook 850',15.6,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','AMD Radeon R7 M365X',90789.3
+HP,'Envy 13-AB077cl',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',80430
+Toshiba,'Tecra Z50-C-140',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6600U 2.6GHz',16GB,'256GB SSD','Nvidia GeForce 930M',138250
+Lenovo,'ThinkPad Yoga',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'512GB SSD','Intel HD Graphics 620',127750
+Dell,'Latitude 3580',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',51093
+Lenovo,'Thinkpad X270',12.5,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',115500
+HP,'Probook 650',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',81550
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Intel HD Graphics 620',49564.2
+HP,'ProBook 640',14,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',80430
+Lenovo,'IdeaPad 320-15IAP',15.6,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 505',21630
+HP,'EliteBook 820',12.5,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',110530
+HP,'250 G6',15.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'1TB HDD','Intel HD Graphics 400',20223
+Lenovo,'Yoga 900-13ISK',13.3,'IPS Panel Quad HD+ / Touchscreen 3200x1800','Intel Core i7 6560U 2.2GHz',16GB,'1TB SSD','Intel Iris Graphics 540',125930
+Toshiba,'Tecra Z40-C-12X',14,'IPS Panel Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'128GB SSD','Intel HD Graphics 520',77350
+HP,'EliteBook 820',12.5,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',116830
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','Intel HD Graphics 520',39102
+MSI,'GP62M Leopard',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',83930
+Dell,'Latitude 7480',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',114730
+Dell,'Alienware 17',17.3,2560x1440,'Intel Core i7 6820HK 2.7GHz',16GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1080',193060
+HP,'Omen 17-W006na',17.3,'IPS Panel Full HD 1920x1080','Intel Core i5 6300HQ 2.3GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 965M',97930
+Asus,'X751SV-TY001T (N3710/4GB/1TB/GeForce',17.3,1600x900,'Intel Pentium Quad Core N3710 1.6GHz',4GB,'1TB HDD','Nvidia GeForce 920MX',37100
+Acer,'TravelMate P259-G2',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',43330
+Toshiba,'Tecra A50-C-1ZV',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',78330
+Lenovo,'Yoga 700-11ISK',11.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core M m7-6Y75 1.2GHz',8GB,'256GB SSD','Intel HD Graphics 515',90930
+Lenovo,'IdeaPad Y700-15ACZ',15.6,'IPS Panel Full HD 1920x1080','AMD FX 8800P 2.1GHz',16GB,'512GB SSD +  1TB HDD','AMD Radeon R9 M385',69930
+Dell,'Latitude 7280',12.5,'Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics',103054
+Lenovo,'IdeaPad 310-15IKB',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce 920MX',47950
+Dell,'Insprion 5767',17.3,1600x900,'Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','AMD Radeon R7 M445',46130
+Acer,'Chromebook 14',14,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'32GB Flash Storage','Intel HD Graphics 400',24430
+HP,'ZBook Studio',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HQ 2.7GHz',8GB,'8GB SSD','Nvidia Quadro M1000M',157430
+Dell,'Latitude 7480',14,'Full HD 1920x1080','Intel Core i7 7600U 2.8GHz',8GB,'256GB SSD','Intel HD Graphics 620',124250
+Toshiba,'Portege Z30-C-1CW',13.3,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',102200
+Asus,'Chromebook Flip',12.5,'Full HD 1920x1080','Intel Core M M7-6Y75 1.2GHz',8GB,'64GB Flash Storage','Intel HD Graphics 515',81130
+Lenovo,'Thinkpad T460',14,'IPS Panel Full HD 1920x1080','Intel Core i7 6600U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 520',104229.3
+Dell,'Alienware 17',17.3,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',220780
+Dell,'XPS 13',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 7Y54 1.2GHz',8GB,'256GB SSD','Intel HD Graphics 615',132930
+HP,'ProBook x360',11.6,'Touchscreen 1366x768','Intel Pentium Quad Core N4200 1.1GHz',4GB,'256GB SSD','Intel HD Graphics 505',54250
+Dell,'XPS 13',13.3,'Quad HD+ 3200x1800','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',88760
+Acer,'Chromebook C738T-C2EJ',11.6,'IPS Panel Touchscreen 1366x768','Intel Celeron Dual Core N3060 1.6GHz',4GB,'32GB Flash Storage','Intel HD Graphics 400',27230
+Toshiba,'Portege Z30-C-16Z',13.3,'Full HD 1920x1080','Intel Core i5 6300U 2.4GHz',8GB,'256GB SSD','Intel HD Graphics 520',107450
+Lenovo,'ThinkPad X270',12.5,'IPS Panel Full HD 1920x1080','Intel Core i5 7300U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 620',123200
+Acer,'Aspire F5-573G-510L',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',12GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 950M',70630
+Toshiba,'Portege X20W-D-10V',12.5,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',125300
+HP,'ProBook 450',15.6,1366x768,'Intel Core i5 7200U 2.50GHz',8GB,'1TB HDD','Nvidia GeForce 930MX',59255
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','AMD Radeon R5 M430',32593.4
+Dell,'Latitude 5580',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',57750
+HP,'ProBook 450',15.6,'Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'500GB HDD','Intel HD Graphics 620',47950
+Dell,'Alienware 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',32GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',220430
+Lenovo,'IdeaPad 310-15IKB',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',6GB,'256GB SSD','Nvidia GeForce 920MX',48650
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 7Y75 1.3GHz',16GB,'512GB SSD','Intel HD Graphics 615',132930
+Dell,'Latitude E7470',14,'Touchscreen 2560x1440','Intel Core i7 6600U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 520',137408.6
+Dell,'Alienware 17',17.3,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',32GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',196000
+Toshiba,'Tecra A40-C-1DF',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',82600
+Asus,'Rog Strix',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',143493
+HP,'Probook 450',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.70GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce 930MX',68530
+Lenovo,'ThinkPad T460',14,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'508GB Hybrid','Intel HD Graphics 520',70140
+Asus,'Q534UX-BHI7T19 (i7-7500U/16GB/2TB',15.6,'4K Ultra HD / Touchscreen 3840x2160','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD +  2TB HDD','Nvidia GeForce GTX 950M',125930
+HP,'15-bs053od (i7-7500U/6GB/1TB/W10)',15.6,1366x768,'Intel Core i7 7500U 2.7GHz',6GB,'1TB HDD','Intel HD Graphics 620',40530
+Asus,'Rog GL753VE-DS74',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',122430
+Dell,'Inspiron 7579',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',12GB,'512GB SSD','Intel HD Graphics 620',90930
+Toshiba,'Portege Z30-C-1CV',13.3,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'128GB SSD','Intel HD Graphics 520',83650
+Lenovo,'IdeaPad 320-15ABR',15.6,'Full HD 1920x1080','AMD A12-Series 9720P 3.6GHz',6GB,'256GB SSD','AMD Radeon 530',38430
+Fujitsu,'LifeBook A556',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'256GB SSD','Intel HD Graphics 520',45430
+Toshiba,'Tecra A40-C-1KF',14,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',64050
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','AMD Radeon R5 M430',41930
+HP,'Probook 450',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',56420
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',83230
+Dell,'Inspiron 5567',15.6,1366x768,'Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','AMD Radeon R7 M445',52430
+Dell,'Latitude 5480',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'128GB SSD','Intel HD Graphics 620 ',78330
+HP,'EliteBook Folio',12.5,'Full HD 1920x1080','Intel Core M 6Y75 1.2GHz',8GB,'512GB SSD','Intel HD Graphics 515',133560
+HP,'15-bs005nv (i3-6006U/4GB/1TB',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'128GB SSD +  1TB HDD','AMD Radeon 520',34930
+Lenovo,'V110-15IAP (N3350/4GB/128GB/No',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'128GB SSD','Intel HD Graphics 500',18943.4
+Lenovo,'ThinkPad T560',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',94430
+Dell,'Inspiron 5378',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',62230
+Asus,'ZenBook UX310UA-FB485T',13.3,'Quad HD+ 3200x1800','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',80500
+HP,'Spectre 13-V111dx',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',94430
+Acer,'Aspire ES1-533',15.6,1366x768,'Intel Pentium Quad Core N4200 1.1GHz',4GB,'500GB HDD','Intel HD Graphics 505',26600
+Asus,'Rog GL553VE-DS74',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',125930
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'512GB SSD','Intel HD Graphics 620',146230
+Acer,'Nitro 5',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',88200
+HP,'ENVY -',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',83230
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'128GB SSD','Intel HD Graphics 620',38290
+HP,'Probook 440',14,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',54530
+Toshiba,'Portege Z30-C-16H',13.3,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'128GB SSD','Intel HD Graphics 520',83650
+HP,'EliteBook 840',14,1366x768,'Intel Core i5 6300U 2.4GHz',4GB,'256GB SSD','Intel HD Graphics 520',76999.3
+HP,'ProBook 640',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',84350
+HP,'EliteBook 1040',14,'Full HD 1920x1080','Intel Core i7 6600U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 520',101430
+HP,'ProBook 440',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',73448.2
+HP,'Probook 440',14,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'500GB HDD','Intel HD Graphics 620',47880
+Dell,'Inspiron 7567',15.6,'Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'1.0TB Hybrid','Nvidia GeForce GTX 1050',66430
+HP,'EliteBook 820',12.5,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',107730
+HP,'Elitebook 840',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',111300
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',132104.7
+HP,'Probook 430',13.3,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'500GB HDD','Intel HD Graphics 620',56000
+Toshiba,'Portege A30-C-1CZ',13.3,1366x768,'Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',84700
+HP,'ProBook 450',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'256GB SSD','Intel HD Graphics 620',53899.3
+Lenovo,'ThinkPad P70',17.3,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 6820HQ 2.7GHz',16GB,'512GB SSD','Nvidia Quadro 3000M',207760
+Toshiba,'Tecra Z40-C-12Z',14,'IPS Panel Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',104300
+HP,'EliteBook 1040',14,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',156030
+Dell,'Inspiron 5568',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i3 6100U 2.3GHz',4GB,'1TB HDD','Intel HD Graphics 520',55719.3
+Toshiba,'Port�g� Z30-C-16K',13.3,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',111300
+HP,'Spectre 13-V100nv',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',80430
+HP,'ProBook 440',14,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',82980.1
+Dell,'Latitude E5570',15.6,'Full HD 1920x1080','Intel Core i5 6300U 2.4GHz',8GB,'500GB HDD','Intel HD Graphics 520',73250.8
+HP,'Elitebook 820',12.5,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',109130
+HP,'ProBook 650',14,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',83230
+HP,'ProBook 640',14,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',74200
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',113680
+HP,'Probook 470',17.3,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Nvidia GeForce 930MX',75600
+HP,'ProBook 440',14,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',68110
+Acer,'Aspire 3',15.6,1366x768,'AMD A9-Series 9420 3GHz',6GB,'1TB HDD','AMD Radeon R5',28630
+MSI,'GL72M 7RDX',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',83426
+HP,'Probook 640',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',83650
+HP,'EliteBook 850',15.6,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',86029.3
+HP,'EliteBook 820',12.5,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',94430
+HP,'ProBook 450',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',51940
+Toshiba,'Tecra Z40-C-136',14,'IPS Panel Full HD 1920x1080','Intel Core i7 6600U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 520',120750
+Dell,'Latitude E5570',15.6,'Full HD 1920x1080','Intel Core i5 6300U 2.4GHz',8GB,'256GB SSD','Intel HD Graphics 520',74406.5
+HP,'ProBook 440',14,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',70735.7
+Lenovo,'Yoga 500-15ISK',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 520',59290
+Vero,'V142 (X5-Z8350/2GB/32GB/W10)',14,1366x768,'Intel Atom X5-Z8350 1.44GHz',2GB,'32GB Flash Storage','Intel HD Graphics 400',14756
+Toshiba,'Tecra A50-C-218',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',16GB,'256GB SSD','Nvidia GeForce 930M',99750
+Lenovo,'Thinkpad L560',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',73472
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',70000
+HP,'EliteBook 850',15.6,'Full HD 1920x1080','Intel Core i5 6300U 2.4GHz',8GB,'256GB SSD +  500GB HDD','Intel HD Graphics 520',147233.8
+HP,'EliteBook 1040',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',102830
+MSI,'GT72S Dominator',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HK 2.7GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 980M',108194.8
+Lenovo,'IdeaPad Y900-17ISK',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 980M',160299.3
+Asus,'Chromebook C202SA',11.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'16GB Flash Storage','Intel HD Graphics 400',20153
+Lenovo,'ThinkPad X1',14,'IPS Panel 2560x1440','Intel Core i7 6600U 2.6GHz',16GB,'256GB SSD','Intel HD Graphics 520',183400
+HP,'Noteb Pav',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce 940MX',68530
+Dell,'Inspiron 5578',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',76580
+HP,'ProBook 450',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Intel HD Graphics 620',68530
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 7500U 2.7GHz',16GB,'1TB SSD','Intel HD Graphics 620',157780
+HP,'ProBook 650',15.6,1366x768,'Intel Core i3 6100U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',49360.5
+HP,'250 G5',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',34930
+Acer,'Aspire ES1-523',15.6,1366x768,'AMD A8-Series 7410 2.2GHz',8GB,'1TB HDD','AMD Radeon R5',31430
+Dell,'Inspiron 7378',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',12GB,'256GB SSD','Intel HD Graphics 620',90930
+MSI,'GT62VR 6RD',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',127330
+HP,'ProBook 450',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',74900
+Asus,'Rog G752VL-GC088D',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'1TB HDD','Nvidia GeForce GTX 965M',69860
+Dell,'Inspiron 3567',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Intel HD Graphics',39130
+Dell,'Inspiron 5567',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'2TB HDD','AMD Radeon R7 M445',69299.3
+MSI,'GS63VR 6RF',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',135030
+Dell,'XPS 13',13.3,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',102060
+Asus,'ROG G701VO',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HK 2.7GHz',64GB,'1TB SSD','Nvidia GeForce GTX 980 ',278250
+Dell,'Inspiron 5368',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',55860.7
+Dell,'Alienware 15',15.6,'4K Ultra HD 3840x2160','Intel Core i7 6700HQ 2.6GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 970M',93030
+Apple,'MacBook 12',12,'IPS Panel Retina Display 2304x1440','Intel Core M 1.1GHz',8GB,'256GB Flash Storage','Intel HD Graphics 515',91000
+Dell,'Latitude 3570',15.6,1366x768,'Intel Core i3 6100U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',33738.6
+HP,'ProBook 650',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',83930
+HP,'EliteBook 820',12.5,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',83930
+HP,'ProBook 430',13.3,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',76300
+Lenovo,'ThinkPad Yoga',12.5,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',119944.3
+Lenovo,'IdeaPad 300-17ISK',17.3,1600x900,'Intel Core i5 6200U 2.3GHz',8GB,'1.0TB HDD','AMD Radeon R5 M330',46130
+Lenovo,'Ideapad 700-15ISK',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 6300HQ 2.3GHz',4GB,'1TB HDD','Nvidia GeForce GTX 950M',68390
+MSI,'GT72VR Dominator',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',174930
+Lenovo,'V110-15ISK (i5-6200U/4GB/500GB/W10)',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',37800
+HP,'Probook 650',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',65800
+Lenovo,'Yoga 900S-12ISK',12.5,'IPS Panel Touchscreen 2560x1440','Intel Core M 6Y75 1.2GHz',8GB,'512GB SSD','Intel HD Graphics 515',97930
+Lenovo,'IdeaPad Y900-17ISK',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HK 2.7GHz',32GB,'512GB SSD +  1.0TB Hybrid','Nvidia GeForce GTX 980M',226800
+Lenovo,'Yoga Book',10.1,'IPS Panel Touchscreen 1920x1200','Intel Atom x5-Z8550 1.44GHz',4GB,'64GB Flash Storage','Intel HD Graphics 400',45238.9
+HP,'Spectre x360',13.3,'IPS Panel 4K Ultra HD 3840x2160','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',143430
+Dell,'Vostro 3568',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',52500
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',72169.3
+HP,'ZBook 15u',15.6,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','AMD FirePro W4190M',104650
+Lenovo,'ThinkPad T460',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'180GB SSD','Intel HD Graphics 520',83930
+HP,'Chromebook 13',13.3,'Quad HD+ 3200x1800','Intel Pentium Dual Core 4405Y 1.5GHz',4GB,'32GB Flash Storage','Intel HD Graphics 515',43050
+Acer,'Aspire ES1-523',15.6,1366x768,'AMD A8-Series 7410 2.2GHz',4GB,'500GB HDD','AMD Radeon R5',27090
+Dell,'Inspiron 3552',15.6,1366x768,'Intel Pentium Quad Core N3700 1.6GHz',4GB,'500GB HDD','Intel HD Graphics',27544.3
+HP,'250 G6',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 520',24219.3
+Asus,'Rog GL702VM-GC354T',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',111930
+Dell,'Inspiron 5370',13.3,'IPS Panel Full HD 1920x1080','Intel Core i5 8250U 1.6GHz',4GB,'256GB SSD','AMD Radeon 530',57284.5
+HP,'Elitebook 820',12.5,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'128GB SSD','Intel HD Graphics 520',111930
+Acer,'Aspire F5-573G',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 950M',55930
+Dell,'Inspiron 5567',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','AMD Radeon R7 M445',44716
+MSI,'GS70 Stealth',17.3,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'256GB SSD','Nvidia GeForce GTX 965M',111930
+HP,'250 G5',15.6,1366x768,'Intel Pentium Quad Core N3710 1.6GHz',4GB,'1TB HDD','Intel HD Graphics 405',35000
+Asus,'G752VY-GC162T (i7-6700HQ/16GB/1TB',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 980M',160930
+Dell,'Latitude E5270',12.5,1366x768,'Intel Core i3 6100U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',79460.5
+Dell,'Latitude E5270',12.5,1366x768,'Intel Core i3 6100U 2.3GHz',4GB,'128GB SSD','Intel HD Graphics 520',81687.9
+Acer,'Chromebook 15',15.6,1366x768,'Intel Celeron Dual Core 3205U 1.5GHz',4GB,'16GB SSD','Intel HD Graphics',14630
+HP,'ZBook 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'1TB HDD','AMD FirePro W6150M',202930
+Lenovo,'Legion Y520-15IKBN',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'512GB SSD','Nvidia GeForce GTX 1050 Ti',83930
+Dell,'Latitude E5270',12.5,1366x768,'Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',98917
+MSI,'GE72 Apache',17.3,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',105783.3
+Lenovo,'Yoga 500-15ISK',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'256GB SSD','Intel HD Graphics 520',60690
+HP,'15-bw011nv (A6-9220/4GB/1TB/FHD/W10)',15.6,'Full HD 1920x1080','AMD A6-Series 9220 2.5GHz',4GB,'1TB HDD','AMD Radeon R4',27860
+Asus,'Rog GL552VW-CN470T',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',93730
+HP,'EliteBook 1030',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core M 6Y54 1.1GHz',8GB,'256GB SSD','Intel HD Graphics 515',118930
+Dell,'Vostro 3559',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','AMD Radeon R5 M315',53840.5
+Lenovo,'V110-15ISK (i3-6006U/4GB/128GB/W10)',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'128GB SSD','Intel HD Graphics 520',30030
+HP,'Spectre Pro',13.3,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'512GB SSD','Intel HD Graphics 520',137830
+Lenovo,'Yoga Book',10.1,'IPS Panel Touchscreen 1920x1200','Intel Atom x5-Z8550 1.44GHz',4GB,'64GB Flash Storage','Intel HD Graphics 400',38430
+Dell,'XPS 13',13.3,'Full HD 1920x1080','Intel Core i7 7560U 2.4GHz',8GB,'256GB SSD','Intel Iris Plus Graphics 640',96530
+Lenovo,'IdeaPad Y900-17ISK',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6820HK 2.7GHz',16GB,'256GB SSD +  1.0TB Hybrid','Nvidia GeForce GTX 980M',192499.3
+Razer,'Blade Stealth',12.5,'Touchscreen / 4K Ultra HD 3840x2160','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',72030
+Toshiba,'Portege X30-D-10K',13.3,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',155820
+Asus,'Rog GL752VW-T4308T',17.3,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',91874.3
+Vero,'V131 (X5-Z8350/4GB/32GB/FHD/W10)',13.3,'Full HD 1920x1080','Intel Atom X5-Z8350 1.44GHz',4GB,'32GB Flash Storage','Intel HD Graphics 400',13720
+HP,'Spectre Pro',13.3,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',118300
+HP,'EliteBook 1040',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',105910
+Dell,'Latitude E5570',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',36654.1
+Asus,'VivoBook Max',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',4GB,'1TB HDD','Intel HD Graphics 620',30450
+Lenovo,'ThinkPad Yoga',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',116830
+Lenovo,'Yoga Book',10.1,'IPS Panel Touchscreen 1920x1200','Intel Atom x5-Z8550 1.44GHz',4GB,'64GB Flash Storage','Intel HD Graphics 400',33530
+HP,'EliteBook 820',12.5,1366x768,'Intel Core i5 6300U 2.4GHz',8GB,'256GB SSD','Intel HD Graphics 520',132650
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',69230
+HP,'Omen -',17.3,'IPS Panel Full HD 1920x1080','Intel Core i5 6300HQ 2.3GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',79030
+HP,'15-bs078cl (i7-7500U/8GB/2TB/W10)',15.6,1366x768,'Intel Core i7 7500U 2.7GHz',8GB,'2TB HDD','Intel HD Graphics 620',44030
+Lenovo,'ThinkPad P40',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6600U 2.6GHz',8GB,'512GB SSD','Nvidia Quadro M500M',143526.6
+Asus,'L403NA-GA013TS (N3350/4GB/32GB/W10)',14,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'32GB Flash Storage','Intel HD Graphics 500',19460
+HP,'250 G6',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',52640
+Acer,'Aspire E5-576G',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Nvidia GeForce 940MX',43120
+Lenovo,'IdeaPad 500-15ISK',15.6,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',16GB,'1.0TB Hybrid','AMD Radeon R7 M360',76930
+HP,'ZBook 17',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'256GB SSD','Nvidia Quadro M3000M',276458
+Dell,'Inspiron 5567',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','AMD Radeon R7 M445',54880
+MSI,'GT72S Dominator',17.3,'Full HD 1920x1080','Intel Core i7 6820HQ 2.7GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 980M',167930
+HP,'EliteBook 850',15.6,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',152020.4
+Lenovo,'ThinkPad X1',14,'IPS Panel Touchscreen 2560x1440','Intel Core i7 6600U 2.6GHz',16GB,'512GB SSD','Intel HD Graphics 520',170800
+MSI,'GP62M 7RDX',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',79996
+HP,'Spectre Pro',13.3,'Full HD / Touchscreen 1920x1080','Intel Core i5 6300U 2.4GHz',8GB,'256GB SSD','Intel HD Graphics 520',114030
+HP,'ZBook 15',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'256GB SSD','Nvidia Quadro M1000M',156030
+HP,'Spectre Pro',13.3,'Touchscreen 2560x1440','Intel Core i7 6600U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 520',125930
+HP,'ZBook Studio',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'256GB SSD','Nvidia Quadro M1000M',132930
+HP,'EliteBook 820',12.5,'Full HD 1920x1080','Intel Core i7 6500U 2.50GHz',8GB,'256GB SSD','Intel HD Graphics 520',160786.5
+Dell,'Vostro 5568',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce 940MX',70693
+HP,'EliteBook 850',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',110530
+Lenovo,'ThinkPad X1',14,'IPS Panel Touchscreen 2560x1440','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',163730
+Lenovo,'V110-15ISK (i3-6006U/4GB/1TB/No',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'1TB HDD','Intel HD Graphics 520',23730
+HP,'15-BA015wm (E2-7110/4GB/500GB/W10)',15.6,1366x768,'AMD E-Series 7110 1.8GHz',4GB,'500GB HDD','AMD Radeon R2 Graphics',20790
+Lenovo,'B51-80 (i5-6200U/8GB/1TB/Radeon',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'1TB HDD','AMD Radeon R5 M330',41930
+Dell,'Inspiron 7567',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050Ti',83930
+Dell,'XPS 15',15.6,'IPS Panel Touchscreen / 4K Ultra HD 3840x2160','Intel Core i5 6300HQ 2.3GHz',8GB,'256GB SSD','Nvidia GeForce 960M',157547.6
+HP,'15-bw002nv (A6-9220/4GB/256GB/Radeon',15.6,'Full HD 1920x1080','AMD A6-Series A6-9220 2.5GHz',4GB,'256GB SSD','AMD Radeon 520',33522.3
+MSI,'GP72M 7REX',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',104496
+Lenovo,'ThinkPad T460s',14,'Full HD 1920x1080','Intel Core i7 6600U 2.6GHz',12GB,'512GB SSD','Intel HD Graphics 520',160930
+Lenovo,'B51-80 (i5-6200U/8GB/1008GB/Radeon',15.6,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'1.0TB Hybrid','AMD Radeon R5 M330',55194.3
+HP,'Spectre Pro',13.3,'Touchscreen 2560x1440','Intel Core i7 6600U 2.6GHz',8GB,'512GB SSD','Intel HD Graphics 520',142870
+Lenovo,'ThinkPad T460',14,'Full HD 1920x1080','Intel Core i7 6600U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 520',104930
+MSI,'GS40 Phantom',14,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 970M',123830
+HP,'Pavilion 15-cb003nv',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',62930
+Lenovo,'IdeaPad 310-15ISK',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',8GB,'1TB HDD','Intel HD Graphics 520',32130
+HP,'250 G4',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',33389.3
+Dell,'Inspiron 7567',15.6,'4K Ultra HD 3840x2160','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',104860
+Lenovo,'ThinkPad T570',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',97300
+Lenovo,'320-15ISK (i3-6006U/4GB/1TB/GeForce',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Nvidia GeForce 920MX ',32760
+HP,'Stream 14-AX000nv',14,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',2GB,'32GB Flash Storage','Intel HD Graphics 400',17430
+MSI,'PL60 7RD',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',58730
+HP,'250 G5',15.6,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',47530
+HP,'ProBook 450',15.6,'Full HD 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Intel UHD Graphics 620',81130
+Asus,'X553SA-XX021T (N3050/4GB/500GB/W10)',15.6,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',4GB,'500GB HDD','Intel HD Graphics',25830
+Lenovo,'V110-15ISK (i5-6200U/4GB/500GB/No',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',27860
+Lenovo,'IdeaPad 510-15IKB',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','Nvidia GeForce 940MX',49630
+Asus,'UX410UA-GV097T (i3-7100U/4GB/256GB/FHD/W10)',14,'Full HD 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'256GB SSD','Intel HD Graphics 620',53830
+Lenovo,'B51-80 (i7-6500U/4GB/1008GB/FHD/W7)',15.6,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',4GB,'1.0TB Hybrid','Intel HD Graphics 520',57750
+Lenovo,'IdeaPad Y700-15ISK',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'512GB SSD','Nvidia GeForce GTX 960',91350
+MSI,'GS60 Ghost',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 970M',150735.9
+HP,'ProBook 450',15.6,1366x768,'Intel Core i3 6100U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',45500
+Lenovo,'ThinkPad X1',14,'IPS Panel Touchscreen 2560x1440','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',114590
+Lenovo,'IdeaPad 310-15IKB',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',6GB,'256GB SSD','Nvidia GeForce 920M',58170
+Dell,'Vostro 5568',15.6,'Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Nvidia GeForce GT 940MX',62650.7
+Acer,'Aspire 3',15.6,1366x768,'Intel Celeron Dual Core N3350 2GHz',4GB,'500GB HDD','Intel HD Graphics 500',23310
+HP,'Pavilion 15-BC000nv',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',6GB,'1TB HDD','Nvidia GeForce GTX 960M',55930
+Asus,'Rog GL552VW-DM201T',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',63630
+Dell,'Inspiron 5578',15.6,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',82530
+Acer,'Aspire E5-576G',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',4GB,'256GB SSD','Nvidia GeForce 940MX',48370
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i5 6300U 2.4GHz',8GB,'256GB SSD','Intel HD Graphics 520',76930
+Acer,'Predator G9-793',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',181930
+Lenovo,'Legion Y520-15IKBN',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7300HQ 2.5GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1050',57330
+Samsung,'Chromebook Plus',12.3,'IPS Panel Touchscreen 2400x1600','Samsung Cortex A72&A53 2.0GHz',4GB,'32GB Flash Storage','ARM Mali T860 MP4',46130
+HP,'250 G6',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',33950
+Apple,'MacBook 12',12,'IPS Panel Retina Display 2304x1440','Intel Core M 1.1GHz',8GB,'256GB Flash Storage','Intel HD Graphics 5300',81410
+Dell,'Inspiron 7378',13.3,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',83930
+HP,'Pavilion Power',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',12GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',92890
+Lenovo,'V110-15ISK (i3-6006U/4GB/1TB/Radeon',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','AMD Radeon R5 M430',25760
+Asus,'Rog G752VY-GC229T',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'512GB SSD +  1TB HDD','Nvidia GeForce GTX 980M',150500
+Acer,'Aspire 3',15.6,1366x768,'Intel Celeron Dual Core N3350 2GHz',4GB,'1TB HDD','Intel HD Graphics 500',19040
+MSI,'GS73VR 7RF',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',143423
+Dell,'Inspiron 5567',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'128GB SSD','AMD Radeon R7 M440',34930
+Lenovo,'IdeaPad 310-15ISK',15.6,1366x768,'Intel Core i7 6500U 2.5GHz',8GB,'500GB HDD','Nvidia GeForce 920MX',44030
+Dell,'Inspiron 5579',15.6,'Full HD / Touchscreen 1920x1080','Intel Core i7 8550U 1.8GHz',16GB,'512GB SSD','Intel UHD Graphics 620',89950
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',187600
+Asus,'FX502VM-DM105T (i7-6700HQ/8GB/1TB/GeForce',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'1TB HDD','Nvidia GeForce GTX 1060',81830
+Dell,'Inspiron 5567',15.6,'Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','AMD Radeon R7 M445',62230
+HP,'15-bs025nv (i5-7200U/8GB/256GB/W10)',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',40530
+Lenovo,'IdeaPad 320-15AST',15.6,1366x768,'AMD E-Series 9000 2.2GHz',4GB,'500GB HDD','AMD Radeon R2 Graphics',20930
+Acer,'Aspire E5-774G',17.3,1600x900,'Intel Core i3 6006U 2.0GHz',8GB,'1TB HDD','Nvidia GeForce 940MX',44030
+Asus,'Rog Strix',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',171430
+Apple,'MacBook 12',12,'IPS Panel Retina Display 2304x1440','Intel Core M 1.2GHz',8GB,'512GB Flash Storage','Intel HD Graphics 515',89530
+Asus,'FX502VM-AS73 (i7-7700HQ/16GB/1TB',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',122430
+MSI,'GS73VR Stealth',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',136429.3
+Dell,'Inspiron 7579',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',69930
+Asus,'ROG Strix',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',136430
+Acer,'C740-C9QX (3205U/2GB/32GB/Chrome',11.6,1366x768,'Intel Celeron Dual Core 3205U 1.5GHz',2GB,'32GB SSD','Intel HD Graphics',12180
+Acer,'E5 774G',17.3,1600x900,'Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Nvidia GeForce 940MX',41860
+Lenovo,'IdeaPad 320-17IKB',17.3,1600x900,'Intel Core i5 7200U 2.5GHz',8GB,'1TB HDD','Intel HD Graphics 620',37730
+Lenovo,'IdeaPad Y700-15ISK',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960<U+039C>',89040
+Acer,'SP714-51 (i7-7Y75/8GB/256GB/FHD/W10)',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 7Y75 1.3GHz',8GB,'256GB SSD','Intel HD Graphics 615',80430
+Lenovo,'Thinkpad T560',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6600U 2.6GHz',8GB,'256GB SSD','Intel HD Graphics 520',107030
+MSI,'GP62MVR 6RF',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',103327.7
+HP,'15-bw009nv (A12-9720P/6GB/1TB/Radeon',15.6,'Full HD 1920x1080','AMD A12-Series 9720P 2.7GHz',6GB,'1TB HDD','AMD Radeon 530',37030
+Dell,'Latitude E7270',12.5,'Full HD / Touchscreen 1920x1080','Intel Core i5 6300U 2.4GHz',8GB,'256GB SSD','Intel HD Graphics 520',119935.9
+Dell,'Inspiron 5578',15,'Full HD / Touchscreen 1920x1080','Intel Core i3 7100U 2.4GHz',4GB,'500GB HDD','Intel HD Graphics 620',35630
+Asus,'X540SA-RBPDN09 (N3710/4GB/1TB/W10)',15.6,1366x768,'Intel Pentium Quad Core N3710 1.6GHz',4GB,'1TB HDD','Intel HD Graphics 405',21630
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i7 7500U 2.7GHz',8GB,'256GB SSD','Intel HD Graphics 620',103390
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'1TB HDD','Intel HD Graphics 520',36530.2
+Lenovo,'IdeaPad Y700-15ISK',15.6,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',72030
+MSI,'GL62M 7RDX',15.6,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 1050',80430
+Lenovo,'ThinkPad Yoga',12.5,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.50GHz',16GB,'512GB SSD','Intel HD Graphics 520',115500
+Razer,'Blade Pro',14,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'1TB SSD','Nvidia GeForce GTX 1060',244930
+Dell,'Inspiron 3567',15.6,'Touchscreen 1366x768','Intel Core i3 7100U 2.4GHz',8GB,'1TB HDD','Intel HD Graphics 620',32830.7
+MSI,'GE72VR Apache',17.3,'Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1060',111860
+Apple,'MacBook Air',11.6,1366x768,'Intel Core i5 1.6GHz',4GB,'256GB Flash Storage','Intel HD Graphics 6000',67130
+HP,'15-bs023nv (i3-6006U/4GB/1TB/FHD/W10)',15.6,'Full HD 1920x1080','Intel Core i3 6006U 2GHz',4GB,'1TB HDD','Intel HD Graphics 520',33460
+HP,'EliteBook 840',14,2560x1440,'Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',153873.3
+Dell,'Vostro 3559',15.6,1366x768,'Intel Core i5 6200U 2.3GHz',4GB,'500GB HDD','Intel HD Graphics 520',51590
+MSI,'GL62 6QF',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',81830
+Lenovo,'ThinkPad 13',13.3,'IPS Panel Full HD 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Intel HD Graphics 620',104930
+Lenovo,'IdeaPad 320-15ABR',15.6,'Full HD 1920x1080','AMD A12-Series 9720P 3.6GHz',6GB,'256GB SSD','AMD Radeon 530',41829.9
+Asus,'ZenBook UX310UA-WB71',13.3,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 520',89600
+Acer,'Aspire ES1-572',15.6,1366x768,'Intel Core i3 6006U 2.0GHz',4GB,'500GB HDD','Intel HD Graphics 520',25326
+Dell,'Inspiron 7779',17.3,'Full HD / Touchscreen 1920x1080','Intel Core i7 7500U 2.7GHz',16GB,'512GB SSD','Nvidia GeForce 940MX',125930
+HP,'EliteBook 840',14,'Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'256GB SSD','Intel HD Graphics 520',76999.3
+Asus,'Rog GL553VE-FY052T',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 7700HQ 2.8GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1050 Ti',112000
+Dell,'Latitude 5480',14,1366x768,'Intel Core i5 7200U 2.5GHz',4GB,'500GB HDD','Intel HD Graphics 620',61250
+Asus,'Rog GL502VS',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'256GB SSD +  1TB HDD','Nvidia GeForce GTX 1070',162750
+Lenovo,'V510-15IKB (i5-7200U/8GB/256GB/FHD/No',15.6,'IPS Panel Full HD 1920x1080','Intel Core i5 7200U 2.5GHz',8GB,'256GB SSD','Intel HD Graphics 620',40110
+Dell,'XPS 13',13.3,'Quad HD+ / Touchscreen 3200x1800','Intel Core i5 7Y54 1.2GHz',8GB,'256GB SSD','Intel HD Graphics 615',126910
+Dell,'Inspiron 3552',15.6,1366x768,'Intel Pentium Quad Core N3710 1.6GHz',4GB,'500GB HDD','Intel HD Graphics',22680
+HP,'255 G6',15.6,1366x768,'AMD A6-Series 9220 2.5GHz',4GB,'500GB HDD','AMD Radeon R4 Graphics',27930
+Lenovo,'IdeaPad 310-15ISK',15.6,'Full HD 1920x1080','Intel Core i3 6100U 2.3GHz',6GB,'128GB SSD','Nvidia GeForce 920MX',39830
+Lenovo,'ThinkPad L460',14,'IPS Panel Full HD 1920x1080','Intel Core i5 6200U 2.3GHz',8GB,'256GB SSD','Intel HD Graphics 520',75040
+Dell,'Inspiron 3552',15.6,1366x768,'Intel Pentium Quad Core N3700 1.6GHz',4GB,'500GB HDD','Intel HD Graphics',31079.3
+Asus,'X541NA-GO020T (N3350/4GB/1TB/W10)',15.6,1366x768,'Intel Celeron Dual Core N3350 1.1GHz',4GB,'1TB HDD','Intel HD Graphics 500',23730
+Asus,'Rog G752VT-GC073T',17.3,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',16GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 970M',133000
+Dell,'Vostro 3568',15.6,1366x768,'Intel Core i3 6006U 2GHz',4GB,'500GB HDD','Intel HD Graphics 520',34300
+Lenovo,'B51-80 (i7-6500U/8GB/1008GB/Radeon',15.6,'Full HD 1920x1080','Intel Core i7 6500U 2.5GHz',8GB,'1.0TB Hybrid','AMD Radeon R5 M330',62650
+MSI,'GE62 Apache',15.6,'Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'128GB SSD +  1TB HDD','Nvidia GeForce GTX 960M',86030
+Lenovo,'Yoga 500-14IBD',14,'Full HD / Touchscreen 1920x1080','Intel Core i5 6200U 2.3GHz',4GB,'128GB SSD','Intel HD Graphics 520',58310.7
+Asus,'ZenBook UX305CA-UBM1',13.3,'IPS Panel Full HD 1920x1080','Intel Core M 6Y30 0.9GHz',8GB,'512GB SSD','Intel HD Graphics 515',51030
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',6GB,'1TB HDD','Intel HD Graphics 620',32130
+Acer,'Aspire ES1-531',15.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'500GB HDD','Intel HD Graphics 400',20230
+Dell,'Inspiron 3552',15.6,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',2GB,'500GB HDD','Intel HD Graphics',26530
+Lenovo,'IdeaPad Y700-15ISK',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'1TB HDD','Nvidia GeForce GTX 960M',62930
+HP,'Pavilion 15-AW003nv',15.6,'Full HD 1920x1080','AMD A9-Series 9410 2.9GHz',6GB,'1.0TB Hybrid','AMD Radeon R7 M440',38499.3
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','AMD Radeon R5 M430',56419.3
+HP,'Stream 11-Y000na',11.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',2GB,'32GB Flash Storage','Intel HD Graphics 400',14630
+Asus,'X556UJ-XO044T (i7-6500U/4GB/500GB/GeForce',15.6,1366x768,'Intel Core i7 6500U 2.5GHz',4GB,'500GB HDD','Nvidia GeForce 920M',50422.4
+Lenovo,'Yoga 500-14ISK',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 520',44660
+Lenovo,'Yoga 900-13ISK',13.3,'IPS Panel Quad HD+ / Touchscreen 3200x1800','Intel Core i7 6500U 2.5GHz',16GB,'512GB SSD','Intel HD Graphics 520',104930
+Lenovo,'IdeaPad 100S-14IBR',14,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',2GB,'64GB Flash Storage','Intel HD Graphics',16030
+HP,'15-AC110nv (i7-6500U/6GB/1TB/Radeon',15.6,1366x768,'Intel Core i7 6500U 2.5GHz',6GB,'1TB HDD','AMD Radeon R5 M330',53480
+Asus,'X553SA-XX031T (N3050/4GB/500GB/W10)',15.6,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',4GB,'500GB HDD','Intel HD Graphics',25830
+Asus,'ZenBook UX305CA-UBM1',13.3,'IPS Panel Full HD 1920x1080','Intel Core M 6Y30 0.9GHz',8GB,'512GB SSD','Intel HD Graphics 515',51030
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',6GB,'1TB HDD','Intel HD Graphics 620',32130
+Acer,'Aspire ES1-531',15.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'500GB HDD','Intel HD Graphics 400',20230
+Dell,'Inspiron 3552',15.6,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',2GB,'500GB HDD','Intel HD Graphics',26530
+Lenovo,'IdeaPad Y700-15ISK',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'1TB HDD','Nvidia GeForce GTX 960M',62930
+HP,'Pavilion 15-AW003nv',15.6,'Full HD 1920x1080','AMD A9-Series 9410 2.9GHz',6GB,'1.0TB Hybrid','AMD Radeon R7 M440',38499.3
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','AMD Radeon R5 M430',56419.3
+HP,'Stream 11-Y000na',11.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',2GB,'32GB Flash Storage','Intel HD Graphics 400',14630
+Asus,'X556UJ-XO044T (i7-6500U/4GB/500GB/GeForce',15.6,1366x768,'Intel Core i7 6500U 2.5GHz',4GB,'500GB HDD','Nvidia GeForce 920M',50422.4
+Lenovo,'Yoga 500-14ISK',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 520',44660
+Lenovo,'Yoga 900-13ISK',13.3,'IPS Panel Quad HD+ / Touchscreen 3200x1800','Intel Core i7 6500U 2.5GHz',16GB,'512GB SSD','Intel HD Graphics 520',104930
+Lenovo,'IdeaPad 100S-14IBR',14,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',2GB,'64GB Flash Storage','Intel HD Graphics',16030
+HP,'15-AC110nv (i7-6500U/6GB/1TB/Radeon',15.6,1366x768,'Intel Core i7 6500U 2.5GHz',6GB,'1TB HDD','AMD Radeon R5 M330',53480
+Asus,'X553SA-XX031T (N3050/4GB/500GB/W10)',15.6,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',4GB,'500GB HDD','Intel HD Graphics',25830
+Asus,'ZenBook UX305CA-UBM1',13.3,'IPS Panel Full HD 1920x1080','Intel Core M 6Y30 0.9GHz',8GB,'512GB SSD','Intel HD Graphics 515',51030
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i3 7100U 2.4GHz',6GB,'1TB HDD','Intel HD Graphics 620',32130
+Acer,'Aspire ES1-531',15.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',4GB,'500GB HDD','Intel HD Graphics 400',20230
+Dell,'Inspiron 3552',15.6,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',2GB,'500GB HDD','Intel HD Graphics',26530
+Lenovo,'IdeaPad Y700-15ISK',15.6,'IPS Panel Full HD 1920x1080','Intel Core i7 6700HQ 2.6GHz',8GB,'1TB HDD','Nvidia GeForce GTX 960M',62930
+HP,'Pavilion 15-AW003nv',15.6,'Full HD 1920x1080','AMD A9-Series 9410 2.9GHz',6GB,'1.0TB Hybrid','AMD Radeon R7 M440',38499.3
+Dell,'Inspiron 3567',15.6,1366x768,'Intel Core i7 7500U 2.7GHz',8GB,'1TB HDD','AMD Radeon R5 M430',56419.3
+HP,'Stream 11-Y000na',11.6,1366x768,'Intel Celeron Dual Core N3060 1.6GHz',2GB,'32GB Flash Storage','Intel HD Graphics 400',14630
+Asus,'X556UJ-XO044T (i7-6500U/4GB/500GB/GeForce',15.6,1366x768,'Intel Core i7 6500U 2.5GHz',4GB,'500GB HDD','Nvidia GeForce 920M',50422.4
+Lenovo,'Yoga 500-14ISK',14,'IPS Panel Full HD / Touchscreen 1920x1080','Intel Core i7 6500U 2.5GHz',4GB,'128GB SSD','Intel HD Graphics 520',44660
+Lenovo,'Yoga 900-13ISK',13.3,'IPS Panel Quad HD+ / Touchscreen 3200x1800','Intel Core i7 6500U 2.5GHz',16GB,'512GB SSD','Intel HD Graphics 520',104930
+Lenovo,'IdeaPad 100S-14IBR',14,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',2GB,'64GB Flash Storage','Intel HD Graphics',16030
+HP,'15-AC110nv (i7-6500U/6GB/1TB/Radeon',15.6,1366x768,'Intel Core i7 6500U 2.5GHz',6GB,'1TB HDD','AMD Radeon R5 M330',53480
+Asus,'X553SA-XX031T (N3050/4GB/500GB/W10)',15.6,1366x768,'Intel Celeron Dual Core N3050 1.6GHz',4GB,'500GB HDD','Intel HD Graphics',25830
